@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5438861393599718877}
   - component: {fileID: -2275267498503879544}
-  - component: {fileID: 5908910096318027713}
+  - component: {fileID: 4580193737547861282}
   m_Layer: 0
   m_Name: mom
   m_TagString: Untagged
@@ -92,7 +92,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &5908910096318027713
+--- !u!114 &4580193737547861282
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,6 +101,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3321485497204368654}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a630a3bfd5f31457ab4b933a223e5824, type: 3}
+  m_Script: {fileID: 11500000, guid: 27a4efeb9319e4bcc83e11eac7ef548c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Mom
+  m_EditorClassIdentifier: Assembly-CSharp::MomAnimation
+  frostingSprite: {fileID: 1498065848207071749, guid: 84aab2cc14bc84286921c849dab28a3c, type: 3}
+  thinkingSprite: {fileID: -1027817075461972709, guid: 5f0d04e0003a04b32a81672b4957c753, type: 3}
+  distractedSprite: {fileID: 2574694494995789514, guid: 8d4620732775a414aab9af42b81fb199, type: 3}
+  turningBackSprite: {fileID: 8227935428051091438, guid: 819770d5453c44d79a3ff223f89a5892, type: 3}

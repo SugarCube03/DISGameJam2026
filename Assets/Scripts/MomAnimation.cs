@@ -22,6 +22,7 @@ public class MomAnimation : MonoBehaviour
     private Coroutine currentAnimCoroutine;
     private Mom.State currentState;
 
+
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
