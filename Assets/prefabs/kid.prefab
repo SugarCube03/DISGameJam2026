@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1434140572678096174}
   - component: {fileID: -7249644925081326964}
-  - component: {fileID: -1402338953164364503}
+  - component: {fileID: 8160602377481999704}
   m_Layer: 0
   m_Name: kid
   m_TagString: Untagged
@@ -92,7 +92,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &-1402338953164364503
+--- !u!114 &8160602377481999704
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,3 +104,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b631335f277604d338600b9e6f5e9e30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KidAnimation
+  minFrameDelay: 0.08
+  maxFrameDelay: 0.3
+  studyingSprite: {fileID: -7269812105839533566, guid: 360051a864155498eb8468403c6dd487, type: 3}
+  lickingFrames:
+  - sprite: {fileID: 2663185342561058455, guid: c291cb2d9b41a498fb3d0290bba61136, type: 3}
+    positionOffset: {x: 3.5, y: 0}
+    rotationOffset: 45
+    flipX: 0
+    flipY: 0
+  - sprite: {fileID: 8925841104117548237, guid: 8eb0a6255b23e41e79763d4b83d5781f, type: 3}
+    positionOffset: {x: 3.5, y: 0}
+    rotationOffset: 0
+    flipX: 0
+    flipY: 0
+  - sprite: {fileID: -3426154106751484579, guid: ce56f8f441bfd4a1e8b481e1ea3962c6, type: 3}
+    positionOffset: {x: 3, y: 0}
+    rotationOffset: 0
+    flipX: 1
+    flipY: 0
+  - sprite: {fileID: 56393221132446115, guid: 1ee44c2b6f95741f68b16062ea397426, type: 3}
+    positionOffset: {x: 3, y: 0}
+    rotationOffset: 0
+    flipX: 0
+    flipY: 0
+  frameRate: 8
+  randomOrder: 0

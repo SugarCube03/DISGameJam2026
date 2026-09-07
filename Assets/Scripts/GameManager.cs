@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public Mom momManager;
     public KidAnimation kid;
     public ProgressManager progressBar;
+    public TimerCode timer;
     public float lickPower = 0.01f;
     public float lickBoost = 1.2f;
     private float frostingProgress = 0f;
@@ -17,7 +18,7 @@ public class GameManager : MonoBehaviour
 
     public float timeLimit = 30f;
     private float timeRemaining;
-    public bool distracted = true;
+    //public bool distracted = true;
     public enum EndReason
     {
         Won,
@@ -36,7 +37,7 @@ public class GameManager : MonoBehaviour
         progressBar.SetProgress(frostingProgress);
         Debug.Log("[GameManager] frostingTarget ACTUAL RUNTIME VALUE = " + frostingTarget);
 
-        Debug.Log("[GameManager] Awake complete. gameEnded=" + gameEnded + " distracted=" + distracted);
+        Debug.Log("[GameManager] Awake complete. gameEnded=" + gameEnded + " distracted=" + momManager.IsDistracted());
     }
 
     // Update is called once per frame
@@ -53,12 +54,12 @@ public class GameManager : MonoBehaviour
         lickingTime = lickingKey.IsPressed();
 
         // ---- DEBUG: print every frame so you can see raw press state ----
-        Debug.Log("[GameManager] Update tick | lickingTime=" + lickingTime + " | distracted=" + distracted + " | lickCoroutine running=" + (lickCoroutine != null));
+        Debug.Log("[GameManager] Update tick | lickingTime=" + lickingTime + " | distracted=" +  momManager.IsDistracted()+ " | lickCoroutine running=" + (lickCoroutine != null));
 
         if (lickingTime)
         {
-            //if(momManager.IsDistracted()== true){
-            if (distracted)
+            if(momManager.IsDistracted()== true)
+            //if (distracted)
             {
                 Debug.Log("[GameManager] Space is down AND distracted=true -> calling HandleLick()");
                 HandleLick();
@@ -79,8 +80,8 @@ public class GameManager : MonoBehaviour
             }
             lickCoroutine = null;
 
-            //if (momManager.IsDistracted() == false) //not distracted
-            if (!distracted)
+            if (momManager.IsDistracted() == false) //not distracted
+            //if (!distracted)
             {
                 DecayProgress();
             }
@@ -132,7 +133,7 @@ public class GameManager : MonoBehaviour
         while (timeRemaining > 0f)
         {
             timeRemaining -= Time.deltaTime;
-            //TODO: update  UI timer 
+            timer.SetTime(timeRemaining);
 
             yield return null;
         }
