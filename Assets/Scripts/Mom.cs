@@ -1,11 +1,17 @@
+using System.Threading;
 using UnityEngine;
 
 public class Mom : MonoBehaviour
 {
     // carries mom's current state
     private State currentState;
+    private Timer stateTimer;
+    private Timer currentStateDuration;
+    private State previousState;
 
-    private SpriteRenderer sr;
+    // has the game ended?
+    private bool isGameOver;
+
 
     // options for state of mom
     public enum State
@@ -17,14 +23,51 @@ public class Mom : MonoBehaviour
         LosingAngry
     }
 
-    private void Awake()
+    // enters the game already frosting
+    private void Start()
     {
-        sr = GetComponent<SpriteRenderer>();
+        EnterState(State.Frosting);
+    }
+
+    private void Update()
+    {
+        // game has ended
+        if (isGameOver)
+        {
+            return;
+        }
     }
 
     // change what state mom is in
-    private void EnterState(State MomState)
+    private void EnterState(State next)
     {
-        currentState = MomState;
+        // transition from the state we are currently in to the next
+        previousState = currentState;
+        currentState = next;
+
+        // reset timer
+        stateTimer = Timer(0);
+    }
+
+    // mom caught child
+    public void Caught()
+    {
+        if (isGameOver)
+        {
+            return;
+        }
+
+        EnterState(State.CatchingAngry);
+    }
+
+    // mom lost
+    public void Lose()
+    {
+        if (isGameOver)
+        {
+            return;
+        }
+
+        EnterState(State.LosingAngry);
     }
 }
