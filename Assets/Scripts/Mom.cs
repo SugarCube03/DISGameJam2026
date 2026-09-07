@@ -5,6 +5,8 @@ public class Mom : MonoBehaviour
     // carries mom's current state
     private State MomState;
 
+    private SpriteRenderer sr;
+
     // options for state of mom
     public enum State
     {
@@ -13,6 +15,11 @@ public class Mom : MonoBehaviour
         Distracted,
         CatchingAngry,
         LosingAngry
+    }
+
+    private void Awake()
+    {
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // state: mom is frosting cake
