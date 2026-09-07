@@ -44,14 +44,14 @@ public class Mom : MonoBehaviour
         // if our state time has ended, move onto the next state
         if (stateTimer >= currentStateDuration)
         {
-            EnterState(ChooseNextState());
+            // EnterState(ChooseNextState());
         }
     }
 
-    private State ChooseNextState()
-    {
+    // private State ChooseNextState()
+    // {
 
-    }
+    // }
 
     // change what state mom is in
     private void EnterState(State next)
