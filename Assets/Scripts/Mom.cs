@@ -7,6 +7,7 @@ public class Mom : MonoBehaviour
     private State currentState;
     private float stateTimer;
     private float currentStateDuration;
+    public float momPower = 0.3f;
     private State previousState;
     private bool isDistracted;
 
@@ -116,6 +117,7 @@ public class Mom : MonoBehaviour
         return isDistracted;
     }
 
+<<<<<<< Updated upstream
     // getter function to see mom's current state
     public State CurrentState()
     {
@@ -126,5 +128,10 @@ public class Mom : MonoBehaviour
     private void ResetMom()
     {
         EnterState(State.Frosting);
+=======
+    public float GetMomPower()
+    {
+        return momPower;
+>>>>>>> Stashed changes
     }
 }
