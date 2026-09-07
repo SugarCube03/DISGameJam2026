@@ -13,22 +13,32 @@ public class GameManager : MonoBehaviour
     private bool lickingTime;
     public float frostingTarget;
     private bool gameEnded = false;
+
+    public float timeLimit = 30f;
+    private float timeRemaining;
     public enum EndReason
-{
-    Won,
-    Caught,
-    TimedOut
-}
+    {
+        Won,
+        Caught,
+        TimedOut
+    }
     private Coroutine lickCoroutine;
 
     void Awake()
     {
         lickingKey = InputSystem.actions.FindAction("Jump");
+        timeRemaining = timeLimit;
+        StartCoroutine(CountdownTimer());
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (gameEnded)
+        {
+            return;
+        } 
+        
         lickingTime = lickingKey.IsPressed();
         if (lickingTime)
         {
@@ -77,18 +87,32 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private IEnumerator CountdownTimer()
+    {
+        while (timeRemaining > 0f)
+        {
+            timeRemaining -= Time.deltaTime;
+            //TODO: update  UI timer 
 
+            yield return null;
+        }
+
+        // loop ended cuz timer hit zero
+        EndGame(EndReason.TimedOut);
+    }
 
    private void EndGame(EndReason reason)
     {
         if (gameEnded) return;
         gameEnded = true;
 
+        StopAllCoroutines();
+
         if (lickCoroutine != null)
         {
-            StopCoroutine(lickCoroutine);
             lickCoroutine = null;
         }
+        
 
         switch (reason)
         {
