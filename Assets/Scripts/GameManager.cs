@@ -7,7 +7,8 @@ public class GameManager : MonoBehaviour
     private InputAction lickingKey;
     public Mom momManager;
     public KidAnimation kid;
-    public float lickPower = 0.3f;
+    public ProgressManager progressBar;
+    public float lickPower = 0.2f;
     public float lickBoost = 1.2f;
     private float frostingProgress = 0f;
     private bool lickingTime;
@@ -71,12 +72,14 @@ public class GameManager : MonoBehaviour
     }
     private void DecayProgress()
     {
-         frostingProgress -= momManager.GetMomPower() * Time.deltaTime;
+        frostingProgress -= momManager.GetMomPower() * Time.deltaTime;
+        progressBar.SetProgress(frostingProgress);
     }
 
     IEnumerator InTheLickZone(){
         while (true){
             frostingProgress += lickPower * Time.deltaTime;
+            progressBar.SetProgress(frostingProgress);
             if (frostingProgress >= frostingTarget)
             {
                 EndGame(EndReason.Won);
