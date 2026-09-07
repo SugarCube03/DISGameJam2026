@@ -12,6 +12,9 @@ public class MomAnimation : MonoBehaviour
     [Header("Distracted Sprite")]
     public Sprite distractedSprite;
 
+    [Header("Turning Back Sprite")]
+    public Sprite turningBackSprite;
+
     private SpriteRenderer spriteRenderer;
     private Vector3 originalPosition;
     private Quaternion originalRotation;
@@ -57,6 +60,10 @@ public class MomAnimation : MonoBehaviour
                 PlayAnimation(DistractedAnimation());
                 break;
 
+            case Mom.State.TurningBack:
+                PlayAnimation(TurningBackAnimation());
+                break;
+
             case Mom.State.Frosting:
             default:
                 PlayAnimation(FrostingAnimation());
@@ -89,6 +96,17 @@ public class MomAnimation : MonoBehaviour
     private IEnumerator FrostingAnimation()
     {
         spriteRenderer.sprite = frostingSprite;
+        spriteRenderer.flipX = false;
+        spriteRenderer.flipY = false;
+        transform.position = originalPosition;
+        transform.rotation = originalRotation;
+
+        yield break;
+    }
+
+    private IEnumerator TurningBackAnimation()
+    {
+        spriteRenderer.sprite = turningBackSprite;
         spriteRenderer.flipX = false;
         spriteRenderer.flipY = false;
         transform.position = originalPosition;

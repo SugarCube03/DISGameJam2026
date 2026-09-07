@@ -18,6 +18,7 @@ public class Mom : MonoBehaviour
     public float maxThinkingTime = 2f;
     public float minDistractedTime = 1.5f; // make sure not too short
     public float maxDistractedTime = 4f;
+    public float turnBackWarning = 0.5f;
 
     public MomAnimation momAnimation;
 
@@ -28,7 +29,8 @@ public class Mom : MonoBehaviour
     {
         Frosting,
         Thinking,
-        Distracted
+        Distracted,
+        TurningBack
     }
 
     // enters the game already frosting
@@ -48,10 +50,10 @@ public class Mom : MonoBehaviour
         {
             StopAllCoroutines();
         }
-        
+
     }
 
-   private bool RollForDistraction()
+    private bool RollForDistraction()
 
     {
         float chance = baseChance + (declineCount * chanceIncreasePerDecline);
@@ -86,13 +88,17 @@ public class Mom : MonoBehaviour
             momAnimation.PlayState(State.Thinking);
             yield return new WaitForSeconds(Random.Range(minThinkingTime, maxThinkingTime));
 
-
             // decide what happens after considering
             if (RollForDistraction())
             {
                 currentState = State.Distracted;
                 momAnimation.PlayState(State.Distracted);
                 yield return new WaitForSeconds(Random.Range(minDistractedTime, maxDistractedTime));
+
+                // turning after distraction
+                currentState = State.TurningBack;
+                momAnimation.PlayState(State.TurningBack);
+                yield return new WaitForSeconds(turnBackWarning);
                 // loop back to frosting
             }
         }
@@ -101,7 +107,7 @@ public class Mom : MonoBehaviour
     // getter function to see if mom is distracted
     public bool IsDistracted()
     {
-        return currentState == State.Distracted;
+        return currentState == State.Distracted || currentState == State.TurningBack;
     }
 
     // getter function to see mom's current state
