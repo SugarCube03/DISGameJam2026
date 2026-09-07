@@ -5,12 +5,21 @@ public class Mom : MonoBehaviour
     // carries mom's current state
     private State MomState;
 
+    private SpriteRenderer sr;
+
     // options for state of mom
     public enum State
     {
         Frosting,
         Thinking,
-        Distracted
+        Distracted,
+        CatchingAngry,
+        LosingAngry
+    }
+
+    private void Awake()
+    {
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // state: mom is frosting cake
@@ -29,5 +38,16 @@ public class Mom : MonoBehaviour
     private void Distracted()
     {
         MomState = State.Distracted;
+    }
+
+    // state: mom caught kid and is angry
+    private void Caught()
+    {
+        MomState = State.CatchingAngry;
+    }
+
+    private void Lose()
+    {
+        MomState = State.LosingAngry;
     }
 }
