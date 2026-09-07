@@ -1,28 +1,8 @@
 using UnityEngine;
 using System.Collections;
-using UnityEditor.Rendering;
-[System.Serializable]
-public class LickingFrame
-{
-    public Sprite sprite;
-    public Vector2 positionOffset = Vector2.zero; // transform compare to the original position
-    public float rotationOffset = 0f;              // rotation
-    public bool flipX = false;                      // flip(horizontal)
-    public bool flipY = false;                       // flip(vertical)
-}
 
 public class MomAnimation : MonoBehaviour
 {
-    public enum MomAnimState
-    {
-        Frosting,
-        Thinking,
-        Distracted
-    }
-    [Header("Animation Speed")]
-    public float minFrameDelay = 0.08f; // fastest gap between frames (seconds)
-    public float maxFrameDelay = 0.3f;  // slowest gap between frames (seconds)
-
     [Header("Frosting Sprite")]
     public Sprite frostingSprite;
 
@@ -32,36 +12,23 @@ public class MomAnimation : MonoBehaviour
     [Header("Distracted Sprite")]
     public Sprite distractedSprite;
 
-    [Header("Animation Speed")]
-    public float frameRate = 8f;
-
-    [Header("Random")]
-    public bool randomOrder = false; // false = loop in sequence, true = pick randomly
-
     private SpriteRenderer spriteRenderer;
-    private int currentIndex = 0;
     private Vector3 originalPosition;
     private Quaternion originalRotation;
 
     private Coroutine currentAnimCoroutine;
-    private MomAnimState currentState;
+    private Mom.State currentState;
 
-    private bool stopAll = false;
-    void Start()
+    void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         originalPosition = transform.position;
         originalRotation = transform.rotation;
-
-        PlayState(MomAnimState.Frosting);
     }
 
-    void Update()
+    void Start()
     {
-        if (stopAll)
-        {
-            StopAllCoroutines();
-        }
+        PlayState(Mom.State.Frosting);
     }
 
     private void PlayAnimation(IEnumerator animationCoroutine)
@@ -73,7 +40,7 @@ public class MomAnimation : MonoBehaviour
         currentAnimCoroutine = StartCoroutine(animationCoroutine);
     }
 
-    public void PlayState(MomAnimState newState)
+    public void PlayState(Mom.State newState)
     {
         // if the state is already being played dont restart
         if (currentState == newState && currentAnimCoroutine != null) return;
@@ -82,15 +49,15 @@ public class MomAnimation : MonoBehaviour
 
         switch (newState)
         {
-            case MomAnimState.Thinking:
+            case Mom.State.Thinking:
                 PlayAnimation(ThinkingAnimation());
                 break;
 
-            case MomAnimState.Distracted:
+            case Mom.State.Distracted:
                 PlayAnimation(DistractedAnimation());
                 break;
 
-            case MomAnimState.Frosting:
+            case Mom.State.Frosting:
             default:
                 PlayAnimation(FrostingAnimation());
                 break;
@@ -130,18 +97,9 @@ public class MomAnimation : MonoBehaviour
         yield break;
     }
 
-
-    public void ResetToFrosting()
+    public void StopAnimating()
     {
-        spriteRenderer.sprite = frostingSprite;
-        spriteRenderer.flipX = false;
-        spriteRenderer.flipY = false;
-        transform.position = originalPosition;
-        transform.rotation = originalRotation;
-    }
-
-    public void SetStop(bool newStopValue)
-    {
-        stopAll = true;
+        StopAllCoroutines();
+        currentAnimCoroutine = null;
     }
 }
