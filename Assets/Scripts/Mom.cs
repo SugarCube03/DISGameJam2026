@@ -3,7 +3,7 @@ using UnityEngine;
 public class Mom : MonoBehaviour
 {
     // carries mom's current state
-    private State MomState;
+    private State currentState;
 
     private SpriteRenderer sr;
 
@@ -22,32 +22,9 @@ public class Mom : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
     }
 
-    // state: mom is frosting cake
-    private void Frosting()
+    // change what state mom is in
+    private void EnterState(State MomState)
     {
-        MomState = State.Frosting;
-    }
-
-    // state: mom is thinking about a distraction
-    private void Thinking()
-    {
-        MomState = State.Thinking;
-    }
-
-    // state: mom is distracted
-    private void Distracted()
-    {
-        MomState = State.Distracted;
-    }
-
-    // state: mom caught kid and is angry
-    private void Caught()
-    {
-        MomState = State.CatchingAngry;
-    }
-
-    private void Lose()
-    {
-        MomState = State.LosingAngry;
+        currentState = MomState;
     }
 }
