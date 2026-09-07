@@ -7,7 +7,7 @@ public class Mom : MonoBehaviour
     // carries mom's current state
     private State currentState;
     private float currentStateDuration;
-    public float momPower = 0.3f;
+    public float momPower = 0.08f;
 
     private int declineCount = 0; // how many times she considered being distrcated and declined in a row
 

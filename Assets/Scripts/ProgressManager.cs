@@ -9,9 +9,7 @@ public class ProgressManager : MonoBehaviour
     public Slider progressSlider;       // drag the slider
     public TextMeshProUGUI percentText; // drag percentage text
 
-    [Header("Progress Percentage")]
-    [Range(0f, 1f)] public float currentProgress = 0f;
-  
+    private float currentProgress = 0f;
 
     void Update()
     {
