@@ -19,11 +19,9 @@ public class Mom : MonoBehaviour
     public float minDistractedTime = 1.5f; // make sure not too short
     public float maxDistractedTime = 4f;
 
-<<<<<<< Updated upstream
     public MomAnimation momAnimation;
-=======
+
     private bool stopAll = false;
->>>>>>> Stashed changes
 
     // options for state of mom
     public enum State
@@ -43,9 +41,7 @@ public class Mom : MonoBehaviour
         StartCoroutine(MomBehaviorLoop());
     }
 
-<<<<<<< Updated upstream
-    private bool RollForDistraction()
-=======
+
     private void Update()
     {
         if (stopAll)
@@ -56,7 +52,7 @@ public class Mom : MonoBehaviour
     }
 
    private bool RollForDistraction()
->>>>>>> Stashed changes
+
     {
         float chance = baseChance + (declineCount * chanceIncreasePerDecline);
         chance = Mathf.Clamp01(chance); // never let it exceed 100% or go negative
@@ -120,15 +116,11 @@ public class Mom : MonoBehaviour
 
     }
 
-<<<<<<< Updated upstream
-    public void StopBehavior()
-    {
-        StopAllCoroutines();
-        momAnimation.StopAnimating();
-=======
+
     public void SetStop(bool stopState)
     {
         stopAll = stopState;
->>>>>>> Stashed changes
+
+
     }
 }
