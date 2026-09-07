@@ -1,4 +1,5 @@
 using System.Threading;
+using NUnit.Framework;
 using UnityEngine;
 
 public class Mom : MonoBehaviour
@@ -8,6 +9,7 @@ public class Mom : MonoBehaviour
     private Timer stateTimer;
     private Timer currentStateDuration;
     private State previousState;
+    private bool isDistracted;
 
     // has the game ended?
     private bool isGameOver;
@@ -45,8 +47,17 @@ public class Mom : MonoBehaviour
         previousState = currentState;
         currentState = next;
 
+        if (next == State.Distracted)
+        {
+            isDistracted = true;
+        }
+        else
+        {
+            isDistracted = false;
+        }
+
         // reset timer
-        stateTimer = Timer(0);
+        // stateTimer = Timer(0);
     }
 
     // mom caught child
@@ -69,5 +80,10 @@ public class Mom : MonoBehaviour
         }
 
         EnterState(State.LosingAngry);
+    }
+
+    public bool DistractionStatus()
+    {
+        return isDistracted;
     }
 }
