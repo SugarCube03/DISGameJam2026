@@ -1,5 +1,4 @@
-using System.Threading;
-using NUnit.Framework;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Mom : MonoBehaviour
@@ -38,6 +37,20 @@ public class Mom : MonoBehaviour
         {
             return;
         }
+
+        // increment timer
+        stateTimer += Time.deltaTime;
+
+        // if our state time has ended, move onto the next state
+        if (stateTimer >= currentStateDuration)
+        {
+            EnterState(ChooseNextState());
+        }
+    }
+
+    private State ChooseNextState()
+    {
+
     }
 
     // change what state mom is in
@@ -47,6 +60,7 @@ public class Mom : MonoBehaviour
         previousState = currentState;
         currentState = next;
 
+        // check if mom is distracted or not
         if (next == State.Distracted)
         {
             isDistracted = true;
@@ -56,9 +70,23 @@ public class Mom : MonoBehaviour
             isDistracted = false;
         }
 
+        // check if game should be over
+        if (next == State.CatchingAngry || next == State.LosingAngry)
+        {
+            isGameOver = true;
+        }
+        else
+        {
+            isGameOver = false;
+        }
+
         // reset timer
         stateTimer = 0f;
+
+        // how long should we be in this state now
+        // currentStateDuration = RollDuration(currentState);
     }
+
 
     // mom caught child
     public void Caught()
@@ -86,5 +114,17 @@ public class Mom : MonoBehaviour
     public bool DistractionStatus()
     {
         return isDistracted;
+    }
+
+    // getter function to see mom's current state
+    public State CurrentState()
+    {
+        return currentState;
+    }
+
+    // mom should start frosting again
+    private void ResetMom()
+    {
+        EnterState(State.Frosting);
     }
 }
