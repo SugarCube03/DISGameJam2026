@@ -6,8 +6,8 @@ public class Mom : MonoBehaviour
 {
     // carries mom's current state
     private State currentState;
-    private Timer stateTimer;
-    private Timer currentStateDuration;
+    private float stateTimer;
+    private float currentStateDuration;
     private State previousState;
     private bool isDistracted;
 
@@ -57,7 +57,7 @@ public class Mom : MonoBehaviour
         }
 
         // reset timer
-        // stateTimer = Timer(0);
+        stateTimer = 0f;
     }
 
     // mom caught child
@@ -82,6 +82,7 @@ public class Mom : MonoBehaviour
         EnterState(State.LosingAngry);
     }
 
+    // getter function to see if mom is distracted
     public bool DistractionStatus()
     {
         return isDistracted;
