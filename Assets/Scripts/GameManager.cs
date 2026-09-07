@@ -38,11 +38,11 @@ public class GameManager : MonoBehaviour
         {
             return;
         } 
-        
+
         lickingTime = lickingKey.IsPressed();
         if (lickingTime)
         {
-            if(momManager.DistractionStatus()== true){
+            if(momManager.IsDistracted()== true){
                 HandleLick();
             }
             else
@@ -56,7 +56,7 @@ public class GameManager : MonoBehaviour
                 //TODO: call the function to change the kid animation to studying
             }
             lickCoroutine = null;
-            if (momManager.DistractionStatus() == false) //not distracted
+            if (momManager.IsDistracted() == false) //not distracted
             {
                 DecayProgress();
             }
