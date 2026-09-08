@@ -1,25 +1,49 @@
 fileFormatVersion: 2
-guid: 41619916f3d7b4e44b45b3e7e6f440df
+guid: 8095aea1aebf24fae8359d3b053664e8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3310209094219184541
-    second: ihihi_boy_0
+      213: -6845127749872714713
+    second: pose_lose_boy_0
   - first:
-      213: 4871263334158898815
-    second: ihihi_boy_1
+      213: -6898864098890563777
+    second: pose_lose_boy_1
   - first:
-      213: 3325409041821824496
-    second: ihihi_boy_2
+      213: 7472006407822983860
+    second: pose_lose_boy_2
   - first:
-      213: -8437954337603235447
-    second: ihihi_boy_3
+      213: -9142998150247060068
+    second: pose_lose_boy_3
   - first:
-      213: -8757852808019024046
-    second: ihihi_boy_4
+      213: 2317818951631564667
+    second: pose_lose_boy_4
   - first:
-      213: 3979417317283759014
-    second: ihihi_boy_5
+      213: -7171730319466344806
+    second: pose_lose_boy_5
+  - first:
+      213: 3079513825592382828
+    second: pose_lose_boy_6
+  - first:
+      213: 5712223890406149445
+    second: pose_lose_boy_7
+  - first:
+      213: 6603532797528057064
+    second: pose_lose_boy_8
+  - first:
+      213: -4730298460626430620
+    second: pose_lose_boy_9
+  - first:
+      213: -8250346293921550328
+    second: pose_lose_boy_10
+  - first:
+      213: -2958585196816121169
+    second: pose_lose_boy_11
+  - first:
+      213: -8026507373663309604
+    second: pose_lose_boy_12
+  - first:
+      213: -751717668360715299
+    second: pose_lose_boy_13
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,23 +139,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: success_0
+      name: pose_lose_boy_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 3
-        width: 324
-        height: 394
+        x: 58
+        y: 309
+        width: 295
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e456cc91f18674290a9258294499cf1e
-      internalID: -2048219211
+      spriteID: 72cfaaa14983101a0800000000000000
+      internalID: -6845127749872714713
       vertices: []
       indices: 
       edges: []
@@ -140,7 +164,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b2ff54cd086df48feb6e17be53b98564
+    spriteID: 37a4f72cdaa104780af0d453fdf21d86
     internalID: 0
     vertices: []
     indices: 
@@ -150,13 +174,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ihihi_boy_0: -3310209094219184541
-      ihihi_boy_1: 4871263334158898815
-      ihihi_boy_2: 3325409041821824496
-      ihihi_boy_3: -8437954337603235447
-      ihihi_boy_4: -8757852808019024046
-      ihihi_boy_5: 3979417317283759014
-      success_0: -2048219211
+      pose_lose_boy_0: -6845127749872714713
+      pose_lose_boy_1: -6898864098890563777
+      pose_lose_boy_10: -8250346293921550328
+      pose_lose_boy_11: -2958585196816121169
+      pose_lose_boy_12: -8026507373663309604
+      pose_lose_boy_13: -751717668360715299
+      pose_lose_boy_2: 7472006407822983860
+      pose_lose_boy_3: -9142998150247060068
+      pose_lose_boy_4: 2317818951631564667
+      pose_lose_boy_5: -7171730319466344806
+      pose_lose_boy_6: 3079513825592382828
+      pose_lose_boy_7: 5712223890406149445
+      pose_lose_boy_8: 6603532797528057064
+      pose_lose_boy_9: -4730298460626430620
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

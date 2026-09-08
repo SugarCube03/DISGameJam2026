@@ -1,0 +1,2904 @@
+fileFormatVersion: 2
+guid: 092a16dffb0244f37a58460d4118449d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -651789433061641868
+    second: hanabi_0
+  - first:
+      213: -200288085208486559
+    second: hanabi_1
+  - first:
+      213: -1039880452743112492
+    second: hanabi_2
+  - first:
+      213: -8145664667206643334
+    second: hanabi_3
+  - first:
+      213: -7281322924657420965
+    second: hanabi_4
+  - first:
+      213: 287624813493410246
+    second: hanabi_5
+  - first:
+      213: -803781390992524572
+    second: hanabi_6
+  - first:
+      213: 4239162531859722525
+    second: hanabi_7
+  - first:
+      213: 6425799718257778089
+    second: hanabi_8
+  - first:
+      213: 2298213346300774342
+    second: hanabi_9
+  - first:
+      213: 1385143114762405764
+    second: hanabi_10
+  - first:
+      213: 2422936943687768558
+    second: hanabi_11
+  - first:
+      213: -8471907672486772522
+    second: hanabi_12
+  - first:
+      213: 5480861952140135117
+    second: hanabi_13
+  - first:
+      213: -5862160383874856275
+    second: hanabi_14
+  - first:
+      213: 6840987234547725135
+    second: hanabi_15
+  - first:
+      213: -853582652047258878
+    second: hanabi_16
+  - first:
+      213: -7517221069165961046
+    second: hanabi_17
+  - first:
+      213: 1984522329384969066
+    second: hanabi_18
+  - first:
+      213: -1868936931019973450
+    second: hanabi_19
+  - first:
+      213: 1598215415472459711
+    second: hanabi_20
+  - first:
+      213: 8322092988798715006
+    second: hanabi_21
+  - first:
+      213: 5066827315329028773
+    second: hanabi_22
+  - first:
+      213: -4219747152307680039
+    second: hanabi_23
+  - first:
+      213: 8316931086322359105
+    second: hanabi_24
+  - first:
+      213: -9103182257592297115
+    second: hanabi_25
+  - first:
+      213: -6947550177675469773
+    second: hanabi_26
+  - first:
+      213: -6898007016612600604
+    second: hanabi_27
+  - first:
+      213: 5441567053809729112
+    second: hanabi_28
+  - first:
+      213: -7935863728462356042
+    second: hanabi_29
+  - first:
+      213: -3477847041788355340
+    second: hanabi_30
+  - first:
+      213: -8296110210167486810
+    second: hanabi_31
+  - first:
+      213: 9095511552209792558
+    second: hanabi_32
+  - first:
+      213: 1167307225146198329
+    second: hanabi_33
+  - first:
+      213: -2572991665978993318
+    second: hanabi_34
+  - first:
+      213: -5625146412982919757
+    second: hanabi_35
+  - first:
+      213: 3780450349864132092
+    second: hanabi_36
+  - first:
+      213: 6640761473347743228
+    second: hanabi_37
+  - first:
+      213: -8443446193263358181
+    second: hanabi_38
+  - first:
+      213: 5553644354774334477
+    second: hanabi_39
+  - first:
+      213: 4008587902541504602
+    second: hanabi_40
+  - first:
+      213: 3507874428667323163
+    second: hanabi_41
+  - first:
+      213: -8803681803335211645
+    second: hanabi_42
+  - first:
+      213: -2599542707312034679
+    second: hanabi_43
+  - first:
+      213: -6301384427044655923
+    second: hanabi_44
+  - first:
+      213: 240130948912198672
+    second: hanabi_45
+  - first:
+      213: -7167915877174010874
+    second: hanabi_46
+  - first:
+      213: 8365264866226191199
+    second: hanabi_47
+  - first:
+      213: -4889840032285393457
+    second: hanabi_48
+  - first:
+      213: 2631236980773126730
+    second: hanabi_49
+  - first:
+      213: -8618427948503697071
+    second: hanabi_50
+  - first:
+      213: 5009635249564933780
+    second: hanabi_51
+  - first:
+      213: -6317193172989228609
+    second: hanabi_52
+  - first:
+      213: 4579731985201816894
+    second: hanabi_53
+  - first:
+      213: 6203822221608162876
+    second: hanabi_54
+  - first:
+      213: 3215838865559928810
+    second: hanabi_55
+  - first:
+      213: -1733041870763627080
+    second: hanabi_56
+  - first:
+      213: -1946503381826804289
+    second: hanabi_57
+  - first:
+      213: 1358987869908636874
+    second: hanabi_58
+  - first:
+      213: -2292027354158491643
+    second: hanabi_59
+  - first:
+      213: 5641470454099975688
+    second: hanabi_60
+  - first:
+      213: -420725428785463739
+    second: hanabi_61
+  - first:
+      213: -2870130543728610145
+    second: hanabi_62
+  - first:
+      213: -8789947908400398396
+    second: hanabi_63
+  - first:
+      213: 5594764566601857130
+    second: hanabi_64
+  - first:
+      213: -2519671161310719577
+    second: hanabi_65
+  - first:
+      213: 8712304588806058167
+    second: hanabi_66
+  - first:
+      213: -753990142012996252
+    second: hanabi_67
+  - first:
+      213: -6669961305573210251
+    second: hanabi_68
+  - first:
+      213: 1855799540875728484
+    second: hanabi_69
+  - first:
+      213: 721677617096318815
+    second: hanabi_70
+  - first:
+      213: 300412545557879643
+    second: hanabi_71
+  - first:
+      213: -4120036218169508655
+    second: hanabi_72
+  - first:
+      213: 9045936328406348771
+    second: hanabi_73
+  - first:
+      213: -4863809756391777399
+    second: hanabi_74
+  - first:
+      213: 3440136919504893925
+    second: hanabi_75
+  - first:
+      213: 3693407068371278664
+    second: hanabi_76
+  - first:
+      213: -5381238071916665339
+    second: hanabi_77
+  - first:
+      213: 8755663943109333072
+    second: hanabi_78
+  - first:
+      213: 8357695106272556812
+    second: hanabi_79
+  - first:
+      213: 8721563207106699828
+    second: hanabi_80
+  - first:
+      213: 189623401765385089
+    second: hanabi_81
+  - first:
+      213: -4497100416448561425
+    second: hanabi_82
+  - first:
+      213: -2719023324759140770
+    second: hanabi_83
+  - first:
+      213: 1403725266485190848
+    second: hanabi_84
+  - first:
+      213: 6539081067481431741
+    second: hanabi_85
+  - first:
+      213: -2726093382312493915
+    second: hanabi_86
+  - first:
+      213: -1377176734505588142
+    second: hanabi_87
+  - first:
+      213: -286188812609077974
+    second: hanabi_88
+  - first:
+      213: 8439917458279525762
+    second: hanabi_89
+  - first:
+      213: -3548488758062608606
+    second: hanabi_90
+  - first:
+      213: 8840670131225706531
+    second: hanabi_91
+  - first:
+      213: 6640759863424198710
+    second: hanabi_92
+  - first:
+      213: -1946467452425608377
+    second: hanabi_93
+  - first:
+      213: 8975363007673272763
+    second: hanabi_94
+  - first:
+      213: -3631599023459023030
+    second: hanabi_95
+  - first:
+      213: 3552066665035008455
+    second: hanabi_96
+  - first:
+      213: 4249683296139028113
+    second: hanabi_97
+  - first:
+      213: 4116204631025377964
+    second: hanabi_98
+  - first:
+      213: -4863859459113950649
+    second: hanabi_99
+  - first:
+      213: 3773424434778525545
+    second: hanabi_100
+  - first:
+      213: -8405982674447444504
+    second: hanabi_101
+  - first:
+      213: 7736297820244169742
+    second: hanabi_102
+  - first:
+      213: -4875157740762610552
+    second: hanabi_103
+  - first:
+      213: 9015522092922373581
+    second: hanabi_104
+  - first:
+      213: 2594965221414386335
+    second: hanabi_105
+  - first:
+      213: -7420001534906143310
+    second: hanabi_106
+  - first:
+      213: 3337633530344032713
+    second: hanabi_107
+  - first:
+      213: -5495606373254174400
+    second: hanabi_108
+  - first:
+      213: 4325707969068565168
+    second: hanabi_109
+  - first:
+      213: -2758086827762361283
+    second: hanabi_110
+  - first:
+      213: 3053915107798932309
+    second: hanabi_111
+  - first:
+      213: 3060331635986909142
+    second: hanabi_112
+  - first:
+      213: -3069642229580780528
+    second: hanabi_113
+  - first:
+      213: 5159977461025123394
+    second: hanabi_114
+  - first:
+      213: 695784007673155615
+    second: hanabi_115
+  - first:
+      213: -6219488308736687577
+    second: hanabi_116
+  - first:
+      213: -5303533049623218465
+    second: hanabi_117
+  - first:
+      213: 8254265763390385199
+    second: hanabi_118
+  - first:
+      213: 6922823253515378846
+    second: hanabi_119
+  - first:
+      213: 276073273484445586
+    second: hanabi_120
+  - first:
+      213: 2499538038734129666
+    second: hanabi_121
+  - first:
+      213: -7407552685321474979
+    second: hanabi_122
+  - first:
+      213: 5490182305879314957
+    second: hanabi_123
+  - first:
+      213: 1581176606854137293
+    second: hanabi_124
+  - first:
+      213: 5463804965707417040
+    second: hanabi_125
+  - first:
+      213: -6878578035422083477
+    second: hanabi_126
+  - first:
+      213: 866877397873484158
+    second: hanabi_127
+  - first:
+      213: 8682782097459984621
+    second: hanabi_128
+  - first:
+      213: -7721512520968506158
+    second: hanabi_129
+  - first:
+      213: 3525601925467304761
+    second: hanabi_130
+  - first:
+      213: 5480265018294971859
+    second: hanabi_131
+  - first:
+      213: -1855492799568886130
+    second: hanabi_132
+  - first:
+      213: -6219566552814253883
+    second: hanabi_133
+  - first:
+      213: 8933215427440027001
+    second: hanabi_134
+  - first:
+      213: -383329517999470487
+    second: hanabi_135
+  - first:
+      213: 8444883843936308053
+    second: hanabi_136
+  - first:
+      213: 1077886845826342980
+    second: hanabi_137
+  - first:
+      213: 8165699638302439653
+    second: hanabi_138
+  - first:
+      213: -1249313536352655911
+    second: hanabi_139
+  - first:
+      213: -7792698557406566707
+    second: hanabi_140
+  - first:
+      213: 3682548759460090513
+    second: hanabi_141
+  - first:
+      213: 8631735349994349605
+    second: hanabi_142
+  - first:
+      213: 1654565994949816896
+    second: hanabi_143
+  - first:
+      213: -2085985078844559111
+    second: hanabi_144
+  - first:
+      213: 554006532709419142
+    second: hanabi_145
+  - first:
+      213: 8350329125348989763
+    second: hanabi_146
+  - first:
+      213: -6364072516146735863
+    second: hanabi_147
+  - first:
+      213: 7004479532932701333
+    second: hanabi_148
+  - first:
+      213: 2194032333055137985
+    second: hanabi_149
+  - first:
+      213: 3924251294529956791
+    second: hanabi_150
+  - first:
+      213: 5130803258915650460
+    second: hanabi_151
+  - first:
+      213: -668059857250269072
+    second: hanabi_152
+  - first:
+      213: -4992012115300461632
+    second: hanabi_153
+  - first:
+      213: -8651696115414221546
+    second: hanabi_154
+  - first:
+      213: 7076199455109172625
+    second: hanabi_155
+  - first:
+      213: 8261404077733210807
+    second: hanabi_156
+  - first:
+      213: -419246975106019189
+    second: hanabi_157
+  - first:
+      213: 7877333045292444074
+    second: hanabi_158
+  - first:
+      213: 773853415695675817
+    second: hanabi_159
+  - first:
+      213: 7905034638311196555
+    second: hanabi_160
+  - first:
+      213: 7567903738347726328
+    second: hanabi_161
+  - first:
+      213: -448655997232254151
+    second: hanabi_162
+  - first:
+      213: 2759334753346910370
+    second: hanabi_163
+  - first:
+      213: 1969054442102771798
+    second: hanabi_164
+  - first:
+      213: 657772016375126492
+    second: hanabi_165
+  - first:
+      213: 4069839934929346245
+    second: hanabi_166
+  - first:
+      213: 8885916106552928558
+    second: hanabi_167
+  - first:
+      213: -4398984681870514262
+    second: hanabi_168
+  - first:
+      213: -2425269968774280428
+    second: hanabi_169
+  - first:
+      213: -2832868387064734830
+    second: hanabi_170
+  - first:
+      213: 6729817338665050209
+    second: hanabi_171
+  - first:
+      213: -3706189446717676453
+    second: hanabi_172
+  - first:
+      213: -8917930741689598012
+    second: hanabi_173
+  - first:
+      213: -1067503662457203354
+    second: hanabi_174
+  - first:
+      213: 8749607782780483591
+    second: hanabi_175
+  - first:
+      213: -1738565065407399766
+    second: hanabi_176
+  - first:
+      213: -1002418607467956364
+    second: hanabi_177
+  - first:
+      213: 5576368513145840420
+    second: hanabi_178
+  - first:
+      213: -3605340712254596229
+    second: hanabi_179
+  - first:
+      213: -469598637219361106
+    second: hanabi_180
+  - first:
+      213: -1591350196173147130
+    second: hanabi_181
+  - first:
+      213: 3531993651110046466
+    second: hanabi_182
+  - first:
+      213: 6473482091262096977
+    second: hanabi_183
+  - first:
+      213: -4617399010143452763
+    second: hanabi_184
+  - first:
+      213: 7363241654056737508
+    second: hanabi_185
+  - first:
+      213: -8173118980956926155
+    second: hanabi_186
+  - first:
+      213: -3885634744591633311
+    second: hanabi_187
+  - first:
+      213: 1668141784677692409
+    second: hanabi_188
+  - first:
+      213: -1410254307696829649
+    second: hanabi_189
+  - first:
+      213: -7528964424827138111
+    second: hanabi_190
+  - first:
+      213: 509203736523832548
+    second: hanabi_191
+  - first:
+      213: -2689896468514199510
+    second: hanabi_192
+  - first:
+      213: -8593582214892058561
+    second: hanabi_193
+  - first:
+      213: -8669418096843543985
+    second: hanabi_194
+  - first:
+      213: -4497139649513599876
+    second: hanabi_195
+  - first:
+      213: -7880614736934405618
+    second: hanabi_196
+  - first:
+      213: -3702639673450372772
+    second: hanabi_197
+  - first:
+      213: 7861483352897811641
+    second: hanabi_198
+  - first:
+      213: 6024824678298932158
+    second: hanabi_199
+  - first:
+      213: 585436105251655478
+    second: hanabi_200
+  - first:
+      213: 8411967302536728525
+    second: hanabi_201
+  - first:
+      213: -3089576135589153096
+    second: hanabi_202
+  - first:
+      213: 2938558980809245933
+    second: hanabi_203
+  - first:
+      213: 702510070159283537
+    second: hanabi_204
+  - first:
+      213: -4271123725318823900
+    second: hanabi_205
+  - first:
+      213: -6363320518236573055
+    second: hanabi_206
+  - first:
+      213: -5485511774138826776
+    second: hanabi_207
+  - first:
+      213: -6897400186456448752
+    second: hanabi_208
+  - first:
+      213: -267065486258173885
+    second: hanabi_209
+  - first:
+      213: -2354414352510370785
+    second: hanabi_210
+  - first:
+      213: 3760328610603058060
+    second: hanabi_211
+  - first:
+      213: 9184368668076743736
+    second: hanabi_212
+  - first:
+      213: 8609377173115885695
+    second: hanabi_213
+  - first:
+      213: 4877345444764061718
+    second: hanabi_214
+  - first:
+      213: -6674033237296897982
+    second: hanabi_215
+  - first:
+      213: -6992960582555437135
+    second: hanabi_216
+  - first:
+      213: -5825616643497977982
+    second: hanabi_217
+  - first:
+      213: 5559444229228282447
+    second: hanabi_218
+  - first:
+      213: -4171075890125132187
+    second: hanabi_219
+  - first:
+      213: 1578995853946850027
+    second: hanabi_220
+  - first:
+      213: -7062364499789603587
+    second: hanabi_221
+  - first:
+      213: -286694683202085479
+    second: hanabi_222
+  - first:
+      213: -7671143204728925667
+    second: hanabi_223
+  - first:
+      213: -2074372410322258178
+    second: hanabi_224
+  - first:
+      213: 4996998165459153979
+    second: hanabi_225
+  - first:
+      213: 1901466787479129510
+    second: hanabi_226
+  - first:
+      213: -7520607379705731440
+    second: hanabi_227
+  - first:
+      213: 3876864649095602256
+    second: hanabi_228
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hanabi_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 273
+        width: 122
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471f106c6f064f6f0800000000000000
+      internalID: -651789433061641868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_48
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 291
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdf42be56cc32cb0800000000000000
+      internalID: -4889840032285393457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_49
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 296
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a428ad6d718048420800000000000000
+      internalID: 2631236980773126730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_50
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 300
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15973277171356880800000000000000
+      internalID: -8618427948503697071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_51
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 297
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ed790a7bcc58540800000000000000
+      internalID: 5009635249564933780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_52
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 291
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb944727742d458a0800000000000000
+      internalID: -6317193172989228609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_53
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 298
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35e270e9f97e8f30800000000000000
+      internalID: 4579731985201816894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_63
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 284
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf3b9dc2f4d30680800000000000000
+      internalID: -8789947908400398396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_64
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 283
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68fe322bb894ad40800000000000000
+      internalID: 5594764566601857130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_65
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 285
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a15747bd64580dd0800000000000000
+      internalID: -2519671161310719577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_66
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 287
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b07ace1dd258e870800000000000000
+      internalID: 8712304588806058167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_73
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 274
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3367bc92f998d70800000000000000
+      internalID: 9045936328406348771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_74
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 279
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b503fcbc6408cb0800000000000000
+      internalID: -4863809756391777399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_75
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 279
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7bbc93d42ddbf20800000000000000
+      internalID: 3440136919504893925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_76
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 274
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84bdf21092e914330800000000000000
+      internalID: 3693407068371278664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_77
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 274
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506699f0c700255b0800000000000000
+      internalID: -5381238071916665339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_83
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 263
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56dabf21b6144ad0800000000000000
+      internalID: -2719023324759140770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_84
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 265
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0271f41b80b7310800000000000000
+      internalID: 1403725266485190848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_85
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 270
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe76b8d59b7fba50800000000000000
+      internalID: 6539081067481431741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_86
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 263
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac78b22388fa2ad0800000000000000
+      internalID: -2726093382312493915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_90
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 254
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f0636764c31cec0800000000000000
+      internalID: -3548488758062608606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_91
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 254
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3204d1cf4ae50ba70800000000000000
+      internalID: 8840670131225706531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_92
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 261
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638221a59e7b82c50800000000000000
+      internalID: 6640759863424198710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_98
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 248
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2e517ad42bf1930800000000000000
+      internalID: 4116204631025377964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_99
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 248
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742e61e7799108cb0800000000000000
+      internalID: -4863859459113950649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_100
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 246
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96fc0cde785ed5430800000000000000
+      internalID: 3773424434778525545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_101
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 248
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5d87d5b43f75b80800000000000000
+      internalID: -8405982674447444504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_102
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 249
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04584cf0e9dc5b60800000000000000
+      internalID: 7736297820244169742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_109
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 239
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b28862ba70080c30800000000000000
+      internalID: 4325707969068565168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_110
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 230
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c5a83a4ae49b9d0800000000000000
+      internalID: -2758086827762361283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_111
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 230
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55bdd863c9fa16a20800000000000000
+      internalID: 3053915107798932309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_112
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 238
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7c3e9986b787a20800000000000000
+      internalID: 3060331635986909142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_118
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 225
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c6d849afa0d8270800000000000000
+      internalID: 8254265763390385199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_119
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 223
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e902994021fc21060800000000000000
+      internalID: 6922823253515378846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_120
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 225
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2970506fd2fc4d300800000000000000
+      internalID: 276073273484445586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_136
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 182
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b4247fc11423570800000000000000
+      internalID: 8444883843936308053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_137
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 185
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440ab89106c65fe00800000000000000
+      internalID: 1077886845826342980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_138
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 182
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e87d8bae84625170800000000000000
+      internalID: 8165699638302439653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_144
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 174
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f074b07f971d03e0800000000000000
+      internalID: -2085985078844559111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_145
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 175
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6880469910a30b700800000000000000
+      internalID: 554006532709419142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_149
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 161
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8197d48c4c27e10800000000000000
+      internalID: 2194032333055137985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_150
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 163
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb23d3c2cdb57630800000000000000
+      internalID: 3924251294529956791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_158
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 146
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa92a163ba8e15d60800000000000000
+      internalID: 7877333045292444074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_159
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 134
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a173ced4974dba00800000000000000
+      internalID: 773853415695675817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_160
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 142
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8782b1fe1354bd60800000000000000
+      internalID: 7905034638311196555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_161
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 145
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f521928a58960960800000000000000
+      internalID: 7567903738347726328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_162
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 142
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9337f926fbd06c9f0800000000000000
+      internalID: -448655997232254151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_163
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 134
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8f1ada6502b4620800000000000000
+      internalID: 2759334753346910370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_164
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 146
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650d0f4259c735b10800000000000000
+      internalID: 1969054442102771798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_170
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 127
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b929d0631afa8d0800000000000000
+      internalID: -2832868387064734830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_177
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 126
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47771a96691b612f0800000000000000
+      internalID: -1002418607467956364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_178
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 121
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4232bba2e9d336d40800000000000000
+      internalID: 5576368513145840420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_179
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 116
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b9fcf59b147fdc0800000000000000
+      internalID: -3605340712254596229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_180
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 122
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae48890786ab79f0800000000000000
+      internalID: -469598637219361106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_186
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 112
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f4f01079f339e80800000000000000
+      internalID: -8173118980956926155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_187
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 113
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16433b969c3731ac0800000000000000
+      internalID: -3885634744591633311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_192
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 103
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2822afd9619baad0800000000000000
+      internalID: -2689896468514199510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_193
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 103
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f388e3d91867db880800000000000000
+      internalID: -8593582214892058561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_194
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 104
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a2c486c2a00b780800000000000000
+      internalID: -8669418096843543985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_195
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 104
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7cca6dc053f691c0800000000000000
+      internalID: -4497139649513599876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_201
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 84
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf07e171bf4db470800000000000000
+      internalID: 8411967302536728525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_202
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 96
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b63fabbfde9f15d0800000000000000
+      internalID: -3089576135589153096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_203
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 87
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de44baae2dbd7c820800000000000000
+      internalID: 2938558980809245933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_204
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 97
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1559afecf21dfb900800000000000000
+      internalID: 702510070159283537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_205
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 84
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420e0a8e99be9b4c0800000000000000
+      internalID: -4271123725318823900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_210
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 80
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cb980ee90735fd0800000000000000
+      internalID: -2354414352510370785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_211
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 67
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83cbb1c2fe5f2430800000000000000
+      internalID: 3760328610603058060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_212
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 68
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c11fa84ae657f70800000000000000
+      internalID: 9184368668076743736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_213
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 80
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78ddecace6aa7770800000000000000
+      internalID: 8609377173115885695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_217
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 58
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28713b63780472fa0800000000000000
+      internalID: -5825616643497977982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_218
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 56
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f424fbf321d172d40800000000000000
+      internalID: 5559444229228282447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_219
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 53
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e25e5c39c5d16c0800000000000000
+      internalID: -4171075890125132187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_220
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 56
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea01500d58b9e510800000000000000
+      internalID: 1578995853946850027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_221
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 58
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc16bbc7e07dfd90800000000000000
+      internalID: -7062364499789603587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_222
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 39
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d1fb064b4750cf0800000000000000
+      internalID: -286694683202085479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_223
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 25
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d121bf416ef9a8590800000000000000
+      internalID: -7671143204728925667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_224
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 25
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6fed688495633e0800000000000000
+      internalID: -2074372410322258178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_225
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 40
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34b8733b57e85540800000000000000
+      internalID: 4996998165459153979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_226
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 16
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad85e308fd536a10800000000000000
+      internalID: 1901466787479129510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_227
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 13
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096657d1f6f61a790800000000000000
+      internalID: -7520607379705731440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_228
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 16
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050ec9b9bd36dc530800000000000000
+      internalID: 3876864649095602256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 181
+        width: 117
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef44b87f83da46a88ae82ecacb4d060
+      internalID: -200288085208486559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 70
+        width: 115
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba54fb80ff7046a3be48dd56e179bac
+      internalID: -1039880452743112492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 217
+        width: 124
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a99d1a59b52b4153ae8818413a8ad8b
+      internalID: -8145664667206643334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hanabi_4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 8
+        width: 204
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b564c6d0e9fce4bd08cc68e38da9ff56
+      internalID: -7281322924657420965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 87e1e8769cfc04cae871ce7df916933e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hanabi_0: -651789433061641868
+      hanabi_1: -200288085208486559
+      hanabi_10: 1385143114762405764
+      hanabi_100: 3773424434778525545
+      hanabi_101: -8405982674447444504
+      hanabi_102: 7736297820244169742
+      hanabi_103: -4875157740762610552
+      hanabi_104: 9015522092922373581
+      hanabi_105: 2594965221414386335
+      hanabi_106: -7420001534906143310
+      hanabi_107: 3337633530344032713
+      hanabi_108: -5495606373254174400
+      hanabi_109: 4325707969068565168
+      hanabi_11: 2422936943687768558
+      hanabi_110: -2758086827762361283
+      hanabi_111: 3053915107798932309
+      hanabi_112: 3060331635986909142
+      hanabi_113: -3069642229580780528
+      hanabi_114: 5159977461025123394
+      hanabi_115: 695784007673155615
+      hanabi_116: -6219488308736687577
+      hanabi_117: -5303533049623218465
+      hanabi_118: 8254265763390385199
+      hanabi_119: 6922823253515378846
+      hanabi_12: -8471907672486772522
+      hanabi_120: 276073273484445586
+      hanabi_121: 2499538038734129666
+      hanabi_122: -7407552685321474979
+      hanabi_123: 5490182305879314957
+      hanabi_124: 1581176606854137293
+      hanabi_125: 5463804965707417040
+      hanabi_126: -6878578035422083477
+      hanabi_127: 866877397873484158
+      hanabi_128: 8682782097459984621
+      hanabi_129: -7721512520968506158
+      hanabi_13: 5480861952140135117
+      hanabi_130: 3525601925467304761
+      hanabi_131: 5480265018294971859
+      hanabi_132: -1855492799568886130
+      hanabi_133: -6219566552814253883
+      hanabi_134: 8933215427440027001
+      hanabi_135: -383329517999470487
+      hanabi_136: 8444883843936308053
+      hanabi_137: 1077886845826342980
+      hanabi_138: 8165699638302439653
+      hanabi_139: -1249313536352655911
+      hanabi_14: -5862160383874856275
+      hanabi_140: -7792698557406566707
+      hanabi_141: 3682548759460090513
+      hanabi_142: 8631735349994349605
+      hanabi_143: 1654565994949816896
+      hanabi_144: -2085985078844559111
+      hanabi_145: 554006532709419142
+      hanabi_146: 8350329125348989763
+      hanabi_147: -6364072516146735863
+      hanabi_148: 7004479532932701333
+      hanabi_149: 2194032333055137985
+      hanabi_15: 6840987234547725135
+      hanabi_150: 3924251294529956791
+      hanabi_151: 5130803258915650460
+      hanabi_152: -668059857250269072
+      hanabi_153: -4992012115300461632
+      hanabi_154: -8651696115414221546
+      hanabi_155: 7076199455109172625
+      hanabi_156: 8261404077733210807
+      hanabi_157: -419246975106019189
+      hanabi_158: 7877333045292444074
+      hanabi_159: 773853415695675817
+      hanabi_16: -853582652047258878
+      hanabi_160: 7905034638311196555
+      hanabi_161: 7567903738347726328
+      hanabi_162: -448655997232254151
+      hanabi_163: 2759334753346910370
+      hanabi_164: 1969054442102771798
+      hanabi_165: 657772016375126492
+      hanabi_166: 4069839934929346245
+      hanabi_167: 8885916106552928558
+      hanabi_168: -4398984681870514262
+      hanabi_169: -2425269968774280428
+      hanabi_17: -7517221069165961046
+      hanabi_170: -2832868387064734830
+      hanabi_171: 6729817338665050209
+      hanabi_172: -3706189446717676453
+      hanabi_173: -8917930741689598012
+      hanabi_174: -1067503662457203354
+      hanabi_175: 8749607782780483591
+      hanabi_176: -1738565065407399766
+      hanabi_177: -1002418607467956364
+      hanabi_178: 5576368513145840420
+      hanabi_179: -3605340712254596229
+      hanabi_18: 1984522329384969066
+      hanabi_180: -469598637219361106
+      hanabi_181: -1591350196173147130
+      hanabi_182: 3531993651110046466
+      hanabi_183: 6473482091262096977
+      hanabi_184: -4617399010143452763
+      hanabi_185: 7363241654056737508
+      hanabi_186: -8173118980956926155
+      hanabi_187: -3885634744591633311
+      hanabi_188: 1668141784677692409
+      hanabi_189: -1410254307696829649
+      hanabi_19: -1868936931019973450
+      hanabi_190: -7528964424827138111
+      hanabi_191: 509203736523832548
+      hanabi_192: -2689896468514199510
+      hanabi_193: -8593582214892058561
+      hanabi_194: -8669418096843543985
+      hanabi_195: -4497139649513599876
+      hanabi_196: -7880614736934405618
+      hanabi_197: -3702639673450372772
+      hanabi_198: 7861483352897811641
+      hanabi_199: 6024824678298932158
+      hanabi_2: -1039880452743112492
+      hanabi_20: 1598215415472459711
+      hanabi_200: 585436105251655478
+      hanabi_201: 8411967302536728525
+      hanabi_202: -3089576135589153096
+      hanabi_203: 2938558980809245933
+      hanabi_204: 702510070159283537
+      hanabi_205: -4271123725318823900
+      hanabi_206: -6363320518236573055
+      hanabi_207: -5485511774138826776
+      hanabi_208: -6897400186456448752
+      hanabi_209: -267065486258173885
+      hanabi_21: 8322092988798715006
+      hanabi_210: -2354414352510370785
+      hanabi_211: 3760328610603058060
+      hanabi_212: 9184368668076743736
+      hanabi_213: 8609377173115885695
+      hanabi_214: 4877345444764061718
+      hanabi_215: -6674033237296897982
+      hanabi_216: -6992960582555437135
+      hanabi_217: -5825616643497977982
+      hanabi_218: 5559444229228282447
+      hanabi_219: -4171075890125132187
+      hanabi_22: 5066827315329028773
+      hanabi_220: 1578995853946850027
+      hanabi_221: -7062364499789603587
+      hanabi_222: -286694683202085479
+      hanabi_223: -7671143204728925667
+      hanabi_224: -2074372410322258178
+      hanabi_225: 4996998165459153979
+      hanabi_226: 1901466787479129510
+      hanabi_227: -7520607379705731440
+      hanabi_228: 3876864649095602256
+      hanabi_229: -1742351897
+      hanabi_23: -4219747152307680039
+      hanabi_24: 8316931086322359105
+      hanabi_25: -9103182257592297115
+      hanabi_26: -6947550177675469773
+      hanabi_27: -6898007016612600604
+      hanabi_28: 5441567053809729112
+      hanabi_29: -7935863728462356042
+      hanabi_3: -8145664667206643334
+      hanabi_30: -3477847041788355340
+      hanabi_31: -8296110210167486810
+      hanabi_32: 9095511552209792558
+      hanabi_33: 1167307225146198329
+      hanabi_34: -2572991665978993318
+      hanabi_35: -5625146412982919757
+      hanabi_36: 3780450349864132092
+      hanabi_37: 6640761473347743228
+      hanabi_38: -8443446193263358181
+      hanabi_39: 5553644354774334477
+      hanabi_4: -7281322924657420965
+      hanabi_40: 4008587902541504602
+      hanabi_41: 3507874428667323163
+      hanabi_42: -8803681803335211645
+      hanabi_43: -2599542707312034679
+      hanabi_44: -6301384427044655923
+      hanabi_45: 240130948912198672
+      hanabi_46: -7167915877174010874
+      hanabi_47: 8365264866226191199
+      hanabi_48: -4889840032285393457
+      hanabi_49: 2631236980773126730
+      hanabi_5: 287624813493410246
+      hanabi_50: -8618427948503697071
+      hanabi_51: 5009635249564933780
+      hanabi_52: -6317193172989228609
+      hanabi_53: 4579731985201816894
+      hanabi_54: 6203822221608162876
+      hanabi_55: 3215838865559928810
+      hanabi_56: -1733041870763627080
+      hanabi_57: -1946503381826804289
+      hanabi_58: 1358987869908636874
+      hanabi_59: -2292027354158491643
+      hanabi_6: -803781390992524572
+      hanabi_60: 5641470454099975688
+      hanabi_61: -420725428785463739
+      hanabi_62: -2870130543728610145
+      hanabi_63: -8789947908400398396
+      hanabi_64: 5594764566601857130
+      hanabi_65: -2519671161310719577
+      hanabi_66: 8712304588806058167
+      hanabi_67: -753990142012996252
+      hanabi_68: -6669961305573210251
+      hanabi_69: 1855799540875728484
+      hanabi_7: 4239162531859722525
+      hanabi_70: 721677617096318815
+      hanabi_71: 300412545557879643
+      hanabi_72: -4120036218169508655
+      hanabi_73: 9045936328406348771
+      hanabi_74: -4863809756391777399
+      hanabi_75: 3440136919504893925
+      hanabi_76: 3693407068371278664
+      hanabi_77: -5381238071916665339
+      hanabi_78: 8755663943109333072
+      hanabi_79: 8357695106272556812
+      hanabi_8: 6425799718257778089
+      hanabi_80: 8721563207106699828
+      hanabi_81: 189623401765385089
+      hanabi_82: -4497100416448561425
+      hanabi_83: -2719023324759140770
+      hanabi_84: 1403725266485190848
+      hanabi_85: 6539081067481431741
+      hanabi_86: -2726093382312493915
+      hanabi_87: -1377176734505588142
+      hanabi_88: -286188812609077974
+      hanabi_89: 8439917458279525762
+      hanabi_9: 2298213346300774342
+      hanabi_90: -3548488758062608606
+      hanabi_91: 8840670131225706531
+      hanabi_92: 6640759863424198710
+      hanabi_93: -1946467452425608377
+      hanabi_94: 8975363007673272763
+      hanabi_95: -3631599023459023030
+      hanabi_96: 3552066665035008455
+      hanabi_97: 4249683296139028113
+      hanabi_98: 4116204631025377964
+      hanabi_99: -4863859459113950649
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

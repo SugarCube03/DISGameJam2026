@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: a6b36f2e4bd774ef1842bbce9bffd290
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1553187747825906308
+    second: money_success_man_0
+  - first:
+      213: -4110110435888020621
+    second: money_success_man_1
+  - first:
+      213: -1466745520323007805
+    second: money_success_man_2
+  - first:
+      213: -248950970233174582
+    second: money_success_man_3
+  - first:
+      213: -1045584335608322651
+    second: money_success_man_4
+  - first:
+      213: -8935295378904223721
+    second: money_success_man_5
+  - first:
+      213: 6316252793663064501
+    second: money_success_man_6
+  - first:
+      213: 6771624869062466111
+    second: money_success_man_7
+  - first:
+      213: 5508721336354532724
+    second: money_success_man_8
+  - first:
+      213: 114005130244839291
+    second: money_success_man_9
+  - first:
+      213: 4699116302975066455
+    second: money_success_man_10
+  - first:
+      213: -7301707090887546828
+    second: money_success_man_11
+  - first:
+      213: -9131536595862864019
+    second: money_success_man_12
+  - first:
+      213: 8637188353384167138
+    second: money_success_man_13
+  - first:
+      213: -3561462704161893336
+    second: money_success_man_14
+  - first:
+      213: -3921288469719056203
+    second: money_success_man_15
+  - first:
+      213: -8884532713911686874
+    second: money_success_man_16
+  - first:
+      213: 1697377361001812911
+    second: money_success_man_17
+  - first:
+      213: 4086608551368004882
+    second: money_success_man_18
+  - first:
+      213: -5280524056154154812
+    second: money_success_man_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: money_success_man_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 326
+        width: 346
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482f6aa07080e8510800000000000000
+      internalID: 1553187747825906308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: money_success_man_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 90
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b08f84a9e8c499c0800000000000000
+      internalID: -3921288469719056203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f1931b889423247edb3e05fa709f2597
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      money_success_man_0: 1553187747825906308
+      money_success_man_1: -4110110435888020621
+      money_success_man_10: 4699116302975066455
+      money_success_man_11: -7301707090887546828
+      money_success_man_12: -9131536595862864019
+      money_success_man_13: 8637188353384167138
+      money_success_man_14: -3561462704161893336
+      money_success_man_15: -3921288469719056203
+      money_success_man_16: -8884532713911686874
+      money_success_man_17: 1697377361001812911
+      money_success_man_18: 4086608551368004882
+      money_success_man_19: -5280524056154154812
+      money_success_man_2: -1466745520323007805
+      money_success_man_3: -248950970233174582
+      money_success_man_4: -1045584335608322651
+      money_success_man_5: -8935295378904223721
+      money_success_man_6: 6316252793663064501
+      money_success_man_7: 6771624869062466111
+      money_success_man_8: 5508721336354532724
+      money_success_man_9: 114005130244839291
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

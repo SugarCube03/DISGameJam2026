@@ -1,25 +1,10 @@
 fileFormatVersion: 2
-guid: 41619916f3d7b4e44b45b3e7e6f440df
+guid: 0869c274ffd9d4cdfa25a654b131fc64
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3310209094219184541
-    second: ihihi_boy_0
-  - first:
-      213: 4871263334158898815
-    second: ihihi_boy_1
-  - first:
-      213: 3325409041821824496
-    second: ihihi_boy_2
-  - first:
-      213: -8437954337603235447
-    second: ihihi_boy_3
-  - first:
-      213: -8757852808019024046
-    second: ihihi_boy_4
-  - first:
-      213: 3979417317283759014
-    second: ihihi_boy_5
+      213: 7047544190857060282
+    second: banner02_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: success_0
+      name: banner02_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 3
-        width: 324
-        height: 394
+        x: 1
+        y: 0
+        width: 735
+        height: 282
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e456cc91f18674290a9258294499cf1e
-      internalID: -2048219211
+      spriteID: abf17e22a18edc160800000000000000
+      internalID: 7047544190857060282
       vertices: []
       indices: 
       edges: []
@@ -140,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b2ff54cd086df48feb6e17be53b98564
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -150,13 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ihihi_boy_0: -3310209094219184541
-      ihihi_boy_1: 4871263334158898815
-      ihihi_boy_2: 3325409041821824496
-      ihihi_boy_3: -8437954337603235447
-      ihihi_boy_4: -8757852808019024046
-      ihihi_boy_5: 3979417317283759014
-      success_0: -2048219211
+      banner02_0: 7047544190857060282
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

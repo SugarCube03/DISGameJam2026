@@ -1,25 +1,10 @@
 fileFormatVersion: 2
-guid: 41619916f3d7b4e44b45b3e7e6f440df
+guid: dcef7b7593a5d422f9f284b852f0e327
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3310209094219184541
-    second: ihihi_boy_0
-  - first:
-      213: 4871263334158898815
-    second: ihihi_boy_1
-  - first:
-      213: 3325409041821824496
-    second: ihihi_boy_2
-  - first:
-      213: -8437954337603235447
-    second: ihihi_boy_3
-  - first:
-      213: -8757852808019024046
-    second: ihihi_boy_4
-  - first:
-      213: 3979417317283759014
-    second: ihihi_boy_5
+      213: 2650843382823086998
+    second: banner03_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: success_0
+      name: banner03_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 3
-        width: 324
-        height: 394
+        x: 0
+        y: 0
+        width: 190
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e456cc91f18674290a9258294499cf1e
-      internalID: -2048219211
+      spriteID: 69b6d5c0300b9c420800000000000000
+      internalID: 2650843382823086998
       vertices: []
       indices: 
       edges: []
@@ -140,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b2ff54cd086df48feb6e17be53b98564
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -150,13 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ihihi_boy_0: -3310209094219184541
-      ihihi_boy_1: 4871263334158898815
-      ihihi_boy_2: 3325409041821824496
-      ihihi_boy_3: -8437954337603235447
-      ihihi_boy_4: -8757852808019024046
-      ihihi_boy_5: 3979417317283759014
-      success_0: -2048219211
+      banner03_0: 2650843382823086998
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
