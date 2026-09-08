@@ -105,6 +105,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MomAnimation
   frostingSprite: {fileID: 1498065848207071749, guid: 84aab2cc14bc84286921c849dab28a3c, type: 3}
-  thinkingSprite: {fileID: 7744796343038254590, guid: 5db1fdedea36d48da94f5c2e84c1fd46, type: 3}
+  thinkingSprite: {fileID: 7744796343038254590, guid: 8457d88af18984fcd9e5e37251bc4862, type: 3}
   distractedSprite: {fileID: -3302850407496188321, guid: d2ef831ee729444c38ac7e6a1daf41db, type: 3}
   turningBackSprite: {fileID: -7284864848374660852, guid: 2418323dbe3e34eb1b9a28182f9c38cd, type: 3}

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5db1fdedea36d48da94f5c2e84c1fd46
+guid: 0bccce9c78e2a4cd697de5b8885a904e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7744796343038254590
-    second: "pose_souzou_woman_\u526F\u672C_0"
+      213: -9212002808193275178
+    second: banner04_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "pose_souzou_woman_\u526F\u672C_0"
+      name: banner04_0
       rect:
         serializedVersion: 2
-        x: 221
-        y: 9
-        width: 120
-        height: 194
+        x: 0
+        y: 0
+        width: 190
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: efd1a848d3b0b7b60800000000000000
-      internalID: 7744796343038254590
+      spriteID: 6da2db3d044682080800000000000000
+      internalID: -9212002808193275178
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "pose_souzou_woman_\u526F\u672C_0": 7744796343038254590
+      banner04_0: -9212002808193275178
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

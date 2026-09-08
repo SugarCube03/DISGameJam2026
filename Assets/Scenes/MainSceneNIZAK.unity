@@ -1430,6 +1430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mom
       objectReference: {fileID: 0}
+    - target: {fileID: 4580193737547861282, guid: 0dd2ffc99458046edbeda47e1702d2b4, type: 3}
+      propertyPath: thinkingSprite
+      value: 
+      objectReference: {fileID: 7744796343038254590, guid: 8457d88af18984fcd9e5e37251bc4862, type: 3}
     - target: {fileID: 5438861393599718877, guid: 0dd2ffc99458046edbeda47e1702d2b4, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.2
