@@ -108,3 +108,12 @@ MonoBehaviour:
   thinkingSprite: {fileID: 7436484941672116910, guid: d378c3e683e934aa4a7e05255cafe5fc, type: 3}
   distractedSprite: {fileID: -3302850407496188321, guid: d2ef831ee729444c38ac7e6a1daf41db, type: 3}
   turningBackSprite: {fileID: -7284864848374660852, guid: 2418323dbe3e34eb1b9a28182f9c38cd, type: 3}
+  mainSource: {fileID: 0}
+  creamSource: {fileID: 0}
+  hummingSource: {fileID: 0}
+  pipingBagClip: {fileID: 8300000, guid: c1c7bea842aa2471ea36e8cf3857d3ec, type: 3}
+  creamClip: {fileID: 8300000, guid: cc9ee784e4555448dbd6e27b718df2e2, type: 3}
+  hummingClip: {fileID: 8300000, guid: 22875c40e68f14ca3b409f727dbc6816, type: 3}
+  hmClip: {fileID: 8300000, guid: 10d272e23fc3f448abc2df55c8c072c4, type: 3}
+  stirringClip: {fileID: 8300000, guid: e6a194fcd68dd47e49d30d3985423210, type: 3}
+  huhClip: {fileID: 8300000, guid: 554681d1bc79942d1a9246ca73ca0c85, type: 3}

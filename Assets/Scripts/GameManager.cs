@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class GameManager : MonoBehaviour
     public KidAnimation kid;
     public ProgressManager progressBar;
     public TimerCode timer;
+
+    public GameObject currentSceneCanvas; 
+
     public float lickPower = 0.01f;
     public float lickBoost = 1.2f;
     private float frostingProgress = 0f;
@@ -18,7 +22,11 @@ public class GameManager : MonoBehaviour
 
     public float timeLimit = 30f;
     private float timeRemaining;
-    //public bool distracted = true;
+    public GameObject SceneRoot;
+
+
+    private GameObject objectToUnhide;
+
     public enum EndReason
     {
         Won,
@@ -38,6 +46,10 @@ public class GameManager : MonoBehaviour
         Debug.Log("[GameManager] frostingTarget ACTUAL RUNTIME VALUE = " + frostingTarget);
 
         Debug.Log("[GameManager] Awake complete. gameEnded=" + gameEnded + " distracted=" + momManager.IsDistracted());
+
+        SceneManager.LoadSceneAsync("BeCaught",LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync("Win",LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync("Lose",LoadSceneMode.Additive);
     }
 
     // Update is called once per frame
@@ -151,28 +163,62 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        Debug.LogWarning("[GameManager] EndGame(" + reason + ") FIRING NOW. gameEnded is about to become permanently true.");
         gameEnded = true;
 
         kid.SetStop(gameEnded);
+        momManager.SetStop(gameEnded);
+
         StopAllCoroutines();
+        
 
         if (lickCoroutine != null)
         {
             lickCoroutine = null;
         }
 
+        currentSceneCanvas.SetActive(false);
+        SceneRoot.SetActive(false);
+
         switch (reason)
         {
             case EndReason.Won:
-                Debug.Log("[GameManager] --- WON --- (no UI hooked up yet, this is just the log)");
+                objectToUnhide = GetRootOfScene("Win");
+                Debug.Log("[GameManager] --- WON --- ");
                 break;
             case EndReason.Caught:
-                Debug.Log("[GameManager] --- CAUGHT --- (no UI hooked up yet, this is just the log)");
+                objectToUnhide = GetRootOfScene("BeCaught");
+                
+                Debug.Log("[GameManager] --- CAUGHT --- ");
                 break;
             case EndReason.TimedOut:
-                Debug.Log("[GameManager] --- TIMED OUT --- (no UI hooked up yet, this is just the log)");
+                objectToUnhide = GetRootOfScene("Lose");
+                Debug.Log("[GameManager] --- TIMED OUT --- ");
                 break;
         }
+
+        objectToUnhide.SetActive(true);
+
     }
+
+    private GameObject GetRootOfScene(string sceneName)
+    {
+        Scene scene = SceneManager.GetSceneByName(sceneName);
+
+        if (!scene.IsValid())
+        {
+            Debug.LogWarning($"Scene '{sceneName}' isn't loaded.");
+            return null;
+        }
+
+        GameObject[] roots = scene.GetRootGameObjects();
+
+        if (roots.Length == 0)
+        {
+            Debug.LogWarning($"Scene '{sceneName}' has no root objects.");
+            return null;
+        }
+
+        return roots[0]; // since all of the objects live in one root
+    }
+
 }

@@ -5,9 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/MainSceneNIZAK.unity
+    guid: e2f689bf033304fdca76cc1e237991ff
+  - enabled: 1
+    path: Assets/Endings/Lose.unity
+    guid: ced264359166f44fbb41c61f624a3798
+  - enabled: 1
+    path: Assets/Endings/Win.unity
+    guid: 32d853388f9b846b9a7793ef9b5c521a
+  - enabled: 1
+    path: Assets/Endings/BeCaught.unity
+    guid: 5934ffb2fc94b48b987f33575bc5d328
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
