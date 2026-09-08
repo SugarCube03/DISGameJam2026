@@ -7,6 +7,7 @@ public class BackgroundSound : MonoBehaviour
 
     public AudioClip calmClip;  // plays while he is studying
     public AudioClip tenseClip; // plays while he is licking
+    private bool currentlyLicking = false;
 
     void Awake()
     {
@@ -18,29 +19,50 @@ public class BackgroundSound : MonoBehaviour
 
     void Start()
     {
+        
+        audioSource.loop = true;
+        audioSource.clip  = calmClip;
+        audioSource.Play();
         SetLicking(false);
     }
 
     // game manager calls this when the kid starts or stops licking
     public void SetLicking(bool isLicking)
     {
-        AudioClip clip = calmClip;
 
-        if (isLicking)
+        if (isLicking && !currentlyLicking)
         {
-            clip = tenseClip;
+            if (audioSource.clip == calmClip && audioSource.isPlaying)
+            {
+                 audioSource.Stop();
+            audioSource.clip = tenseClip;
+            audioSource.Play();
+            currentlyLicking = true;
+            }
+            else
+            {
+                return;
+            }
+           
+
         }
 
-        // already playing this one, dont restart it
-        if (audioSource.clip == clip && audioSource.isPlaying)
+        if(!isLicking && currentlyLicking)
         {
-            return;
+            if (audioSource.clip == tenseClip && audioSource.isPlaying)
+            {
+            audioSource.Stop();
+            audioSource.clip = calmClip;
+            audioSource.Play();
+            currentlyLicking = false;
+            }
+            else
+            {
+                return;
+            }
+            }
         }
-
-        audioSource.clip = clip;
-        audioSource.loop = true;
-        audioSource.Play();
-    }
+    
 
     // the round is over, everything goes quiet
     public void StopSound()

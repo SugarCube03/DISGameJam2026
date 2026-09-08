@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public CreamManager creamBar;
 
     public GameObject currentSceneCanvas;
+    public BackgroundSound soundtrack;
 
     public float lickPower = 0.01f;
     public float lickBoost = 1.2f;
@@ -79,6 +80,8 @@ public class GameManager : MonoBehaviour
             {
                 Debug.Log("[GameManager] Space is down AND distracted=true -> calling HandleLick()");
                 HandleLick();
+                soundtrack.SetLicking(true);
+                
             }
             else
             {
@@ -88,6 +91,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+
             if (lickCoroutine != null)
             {
                 Debug.Log("[GameManager] Space released -> stopping lick coroutine, switching kid to Studying");
@@ -96,6 +100,8 @@ public class GameManager : MonoBehaviour
             }
             lickCoroutine = null;
 
+            soundtrack.SetLicking(false);
+            
             if (!momManager.IsDistracted())
             {
                 float power = momManager.IsFrosting() ? momManager.GetActivePower() : momManager.GetPassivePower();
@@ -128,10 +134,12 @@ public class GameManager : MonoBehaviour
         Debug.Log("[GameManager] InTheLickZone() STARTED");
         while (true)
         {
+
             frostingProgress += lickPower * Time.deltaTime;
             creamProgress += lickPower/2 * Time.deltaTime ;
             progressBar.SetProgress(frostingProgress);
             creamBar.SetProgress(creamProgress);
+            
 
             Debug.Log("[GameManager] Licking... frostingProgress=" + frostingProgress + " / target=" + frostingTarget);
 

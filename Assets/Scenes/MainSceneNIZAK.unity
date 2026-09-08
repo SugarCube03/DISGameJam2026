@@ -258,6 +258,10 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 223440749}
+    - target: {fileID: 4580193737547861282, guid: 0dd2ffc99458046edbeda47e1702d2b4, type: 3}
+      propertyPath: distractedSprite
+      value: 
+      objectReference: {fileID: -3302850407496188321, guid: d2ef831ee729444c38ac7e6a1daf41db, type: 3}
     - target: {fileID: 5438861393599718877, guid: 0dd2ffc99458046edbeda47e1702d2b4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.8
@@ -321,7 +325,7 @@ PrefabInstance:
       objectReference: {fileID: 223440750}
     - target: {fileID: -5320040124800405510, guid: d2dea9902502e4a36bca3a1f8333c04c, type: 3}
       propertyPath: baseChance
-      value: 0.5
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: -5320040124800405510, guid: d2dea9902502e4a36bca3a1f8333c04c, type: 3}
       propertyPath: momAnimation
@@ -443,6 +447,10 @@ PrefabInstance:
       propertyPath: momManager
       value: 
       objectReference: {fileID: 297471582}
+    - target: {fileID: -997217396543559121, guid: afd269684a87148afa7b4f52e002eeaf, type: 3}
+      propertyPath: soundtrack
+      value: 
+      objectReference: {fileID: 1189890704}
     - target: {fileID: -997217396543559121, guid: afd269684a87148afa7b4f52e002eeaf, type: 3}
       propertyPath: progressBar
       value: 
@@ -669,11 +677,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 29609510749177371, guid: 652595ea49ffb478cae80445bfdf70c3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -350
+      value: -400
       objectReference: {fileID: 0}
     - target: {fileID: 29609510749177371, guid: 652595ea49ffb478cae80445bfdf70c3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 290
+      value: 550
       objectReference: {fileID: 0}
     - target: {fileID: 29609510749177371, guid: 652595ea49ffb478cae80445bfdf70c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1108,7 +1116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundSound
   audioSource: {fileID: 1189890703}
   calmClip: {fileID: 8300000, guid: 33d9f9858579d45a596f524d304cd18a, type: 3}
-  tenseClip: {fileID: 8300000, guid: 3535488f471e244d2a31eeb17e54be01, type: 3}
+  tenseClip: {fileID: 8300000, guid: d746795ca597c4d0f9157525ae9c2566, type: 3}
 --- !u!224 &1295534944 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 29609510749177371, guid: 652595ea49ffb478cae80445bfdf70c3, type: 3}
@@ -1149,7 +1157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -300, y: 330}
+  m_AnchoredPosition: {x: -350, y: 500}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1539985423
@@ -1491,6 +1499,10 @@ PrefabInstance:
       propertyPath: lickingFrames.Array.data[3].positionOffset.x
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1173042173913357309, guid: 7858e5e5aa85342efa6234d4da605c08, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1732545143}
     - target: {fileID: 1434140572678096174, guid: 7858e5e5aa85342efa6234d4da605c08, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -1586,6 +1598,11 @@ MonoBehaviour:
 --- !u!4 &1732545142 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1434140572678096174, guid: 7858e5e5aa85342efa6234d4da605c08, type: 3}
+  m_PrefabInstance: {fileID: 1732545139}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1732545143 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3151640452206696448, guid: 7858e5e5aa85342efa6234d4da605c08, type: 3}
   m_PrefabInstance: {fileID: 1732545139}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1877448708
