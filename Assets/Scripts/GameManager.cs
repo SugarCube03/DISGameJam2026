@@ -45,11 +45,8 @@ public class GameManager : MonoBehaviour
         timeRemaining = timeLimit;
         StartCoroutine(CountdownTimer());
         progressBar.SetProgress(frostingProgress);
-<<<<<<< Updated upstream
-        creamBar.SetProgress(frostingTarget * 0.5f); //medium
-=======
         creamBar.SetProgress(creamProgress); //medium
->>>>>>> Stashed changes
+
         Debug.Log("[GameManager] frostingTarget ACTUAL RUNTIME VALUE = " + frostingTarget);
 
         Debug.Log("[GameManager] Awake complete. gameEnded=" + gameEnded + " distracted=" + momManager.IsDistracted());
