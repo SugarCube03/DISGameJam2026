@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KidSound
   audioSource: {fileID: 0}
-  studyingClip: {fileID: 8300000, guid: fa2c62942e62a40139e913f13f29f2c8, type: 3}
+  studyingClip: {fileID: 8300000, guid: f2dd03b6c426e443a81c300a292e9f66, type: 3}
   lickingClip: {fileID: 8300000, guid: 82ba6194b1d62472a86568ae259fbb45, type: 3}
 --- !u!82 &3151640452206696448
 AudioSource:
