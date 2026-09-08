@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.Rendering;
 
 public class GameManager : MonoBehaviour
 {
@@ -40,11 +41,10 @@ public class GameManager : MonoBehaviour
     {
         lickingKey = InputSystem.actions.FindAction("Jump");
 
-        frostingProgress = frostingTarget * 0.5f;//set the cream is 50% at the beginning
         timeRemaining = timeLimit;
         StartCoroutine(CountdownTimer());
         progressBar.SetProgress(frostingProgress);
-        creamBar.SetProgress(frostingProgress); 
+        creamBar.SetProgress(frostingTarget*0.5f); //medium
         Debug.Log("[GameManager] frostingTarget ACTUAL RUNTIME VALUE = " + frostingTarget);
 
         Debug.Log("[GameManager] Awake complete. gameEnded=" + gameEnded + " distracted=" + momManager.IsDistracted());
@@ -94,10 +94,10 @@ public class GameManager : MonoBehaviour
             }
             lickCoroutine = null;
 
-            if (momManager.IsDistracted() == false) //not distracted
-            //if (!distracted)
+            if (!momManager.IsDistracted()) 
             {
-                DecayProgress();
+                float power = momManager.IsFrosting()? momManager.GetActivePower() : momManager.GetPassivePower();
+                DecayProgress(power);
             }
         }
     }
@@ -113,9 +113,9 @@ public class GameManager : MonoBehaviour
         lickCoroutine = StartCoroutine(InTheLickZone());
     }
 
-    private void DecayProgress()
+    private void DecayProgress(float power)
     {
-        frostingProgress -= momManager.GetMomPower() * Time.deltaTime;
+        frostingProgress -= power * Time.deltaTime;
         progressBar.SetProgress(frostingProgress);
         creamBar.SetProgress(frostingProgress);
     }

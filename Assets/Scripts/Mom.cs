@@ -5,7 +5,8 @@ public class Mom : MonoBehaviour
 {
     // carries mom's current state
     private State currentState;
-    public float momPower = 0.08f;
+    public float activeFrostingPower = 0.08f;
+    public float passiveFrostingPower = 0.01f;
 
     private int declineCount = 0; // how many times she considered being distrcated and declined in a row
 
@@ -106,15 +107,25 @@ public class Mom : MonoBehaviour
         return currentState == State.Distracted || currentState == State.TurningBack;
     }
 
+    public bool IsFrosting()
+    {
+        return currentState == State.Frosting;
+    }
+
     // getter function to see mom's current state
     public State CurrentState()
     {
         return currentState;
     }
 
-    public float GetMomPower()
+    public float GetActivePower()
     {
-        return momPower;
+        return activeFrostingPower ;
+    }
+
+    public float GetPassivePower()
+    {
+        return passiveFrostingPower ;
     }
 
     // game manager calls this when the round ends
