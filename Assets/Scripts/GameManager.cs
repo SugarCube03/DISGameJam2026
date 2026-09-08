@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public KidAnimation kid;
     public ProgressManager progressBar;
     public TimerCode timer;
+    public CreamManager creamBar; 
 
     public GameObject currentSceneCanvas; 
 
@@ -43,6 +44,7 @@ public class GameManager : MonoBehaviour
         timeRemaining = timeLimit;
         StartCoroutine(CountdownTimer());
         progressBar.SetProgress(frostingProgress);
+        creamBar.SetProgress(frostingProgress); 
         Debug.Log("[GameManager] frostingTarget ACTUAL RUNTIME VALUE = " + frostingTarget);
 
         Debug.Log("[GameManager] Awake complete. gameEnded=" + gameEnded + " distracted=" + momManager.IsDistracted());
@@ -115,6 +117,7 @@ public class GameManager : MonoBehaviour
     {
         frostingProgress -= momManager.GetMomPower() * Time.deltaTime;
         progressBar.SetProgress(frostingProgress);
+        creamBar.SetProgress(frostingProgress);
     }
 
     IEnumerator InTheLickZone()
@@ -124,6 +127,7 @@ public class GameManager : MonoBehaviour
         {
             frostingProgress += lickPower * Time.deltaTime;
             progressBar.SetProgress(frostingProgress);
+            creamBar.SetProgress(frostingProgress);
 
             Debug.Log("[GameManager] Licking... frostingProgress=" + frostingProgress + " / target=" + frostingTarget);
 
