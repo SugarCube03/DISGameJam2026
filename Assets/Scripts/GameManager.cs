@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
 
     public float timeLimit = 30f;
     private float timeRemaining;
+    private float creamProgress;
     public GameObject SceneRoot;
 
 
@@ -40,11 +41,15 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         lickingKey = InputSystem.actions.FindAction("Jump");
-
+        creamProgress=frostingTarget*0.1f;
         timeRemaining = timeLimit;
         StartCoroutine(CountdownTimer());
         progressBar.SetProgress(frostingProgress);
+<<<<<<< Updated upstream
         creamBar.SetProgress(frostingTarget * 0.5f); //medium
+=======
+        creamBar.SetProgress(creamProgress); //medium
+>>>>>>> Stashed changes
         Debug.Log("[GameManager] frostingTarget ACTUAL RUNTIME VALUE = " + frostingTarget);
 
         Debug.Log("[GameManager] Awake complete. gameEnded=" + gameEnded + " distracted=" + momManager.IsDistracted());
@@ -116,8 +121,9 @@ public class GameManager : MonoBehaviour
     private void DecayProgress(float power)
     {
         frostingProgress -= power * Time.deltaTime;
+        creamProgress -= power * Time.deltaTime*1.2f;
         progressBar.SetProgress(frostingProgress);
-        creamBar.SetProgress(frostingProgress);
+        creamBar.SetProgress(creamProgress);
     }
 
     IEnumerator InTheLickZone()
@@ -126,8 +132,9 @@ public class GameManager : MonoBehaviour
         while (true)
         {
             frostingProgress += lickPower * Time.deltaTime;
+            creamProgress += lickPower/2 * Time.deltaTime ;
             progressBar.SetProgress(frostingProgress);
-            creamBar.SetProgress(frostingProgress);
+            creamBar.SetProgress(creamProgress);
 
             Debug.Log("[GameManager] Licking... frostingProgress=" + frostingProgress + " / target=" + frostingTarget);
 

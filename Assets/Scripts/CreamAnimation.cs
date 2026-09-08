@@ -12,6 +12,6 @@ public class CreamManager : MonoBehaviour
     {
         progress = Mathf.Clamp01(progress);//restrict the number between 0 and 1
         float currentScale = Mathf.Lerp(maxScale, minScale, progress);// linear interpolation
-        transform.localScale = new Vector3(currentScale, currentScale, currentScale);
+        transform.localScale = new Vector3(currentScale*1.30477000005f, currentScale, currentScale);
     }
 }

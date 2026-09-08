@@ -98,7 +98,7 @@ public class MomAnimation : MonoBehaviour
     private IEnumerator FrostingAnimation()
     {
         spriteRenderer.sprite = frostingSprite;
-        spriteRenderer.flipX = false;
+        spriteRenderer.flipX = true;
         spriteRenderer.flipY = false;
         transform.position = originalPosition;
         transform.rotation = originalRotation;
