@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: cebffcfb6aa3546d38ee5f252568daea
+guid: d378c3e683e934aa4a7e05255cafe5fc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8344048856415101555
-    second: fukidashi8_woman_0
+      213: 7436484941672116910
+    second: "pose_souzou_woman_\u526F\u672C3_0"
   - first:
-      213: -3579225580946246174
-    second: fukidashi8_woman_1
+      213: -3043899581475805723
+    second: "pose_souzou_woman_\u526F\u672C3_1"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fukidashi8_woman_0
+      name: "pose_souzou_woman_\u526F\u672C3_0"
       rect:
         serializedVersion: 2
-        x: 3
-        y: 90
-        width: 86
-        height: 100
+        x: 13
+        y: 3
+        width: 361
+        height: 422
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 372602be9340cc370800000000000000
-      internalID: 8344048856415101555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fukidashi8_woman_1
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 17
-        width: 161
-        height: 149
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e535b43c49045ec0800000000000000
-      internalID: -3579225580946246174
+      spriteID: ea278ed77a3b33760800000000000000
+      internalID: 7436484941672116910
       vertices: []
       indices: 
       edges: []
@@ -150,7 +128,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a0ab29581223b47deb20d6319aa2f6c1
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +138,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fukidashi8_woman_0: 8344048856415101555
-      fukidashi8_woman_1: -3579225580946246174
+      "pose_souzou_woman_\u526F\u672C3_0": 7436484941672116910
+      "pose_souzou_woman_\u526F\u672C3_1": -3043899581475805723
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
