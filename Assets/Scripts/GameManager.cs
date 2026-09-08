@@ -11,15 +11,15 @@ public class GameManager : MonoBehaviour
     public KidAnimation kid;
     public ProgressManager progressBar;
     public TimerCode timer;
-    public CreamManager creamBar; 
+    public CreamManager creamBar;
 
-    public GameObject currentSceneCanvas; 
+    public GameObject currentSceneCanvas;
 
     public float lickPower = 0.01f;
     public float lickBoost = 1.2f;
     private float frostingProgress = 0f;
     private bool lickingTime;
-    public float frostingTarget=1;
+    public float frostingTarget = 1;
     private bool gameEnded = false;
 
     public float timeLimit = 30f;
@@ -44,14 +44,14 @@ public class GameManager : MonoBehaviour
         timeRemaining = timeLimit;
         StartCoroutine(CountdownTimer());
         progressBar.SetProgress(frostingProgress);
-        creamBar.SetProgress(frostingTarget*0.5f); //medium
+        creamBar.SetProgress(frostingTarget * 0.5f); //medium
         Debug.Log("[GameManager] frostingTarget ACTUAL RUNTIME VALUE = " + frostingTarget);
 
         Debug.Log("[GameManager] Awake complete. gameEnded=" + gameEnded + " distracted=" + momManager.IsDistracted());
 
-        SceneManager.LoadSceneAsync("BeCaught",LoadSceneMode.Additive);
-        SceneManager.LoadSceneAsync("Win",LoadSceneMode.Additive);
-        SceneManager.LoadSceneAsync("Lose",LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync("BeCaught", LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync("Win", LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync("Lose", LoadSceneMode.Additive);
     }
 
     // Update is called once per frame
@@ -63,16 +63,16 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        
+
 
         lickingTime = lickingKey.IsPressed();
 
         // ---- DEBUG: print every frame so you can see raw press state ----
-        Debug.Log("[GameManager] Update tick | lickingTime=" + lickingTime + " | distracted=" +  momManager.IsDistracted()+ " | lickCoroutine running=" + (lickCoroutine != null));
+        Debug.Log("[GameManager] Update tick | lickingTime=" + lickingTime + " | distracted=" + momManager.IsDistracted() + " | lickCoroutine running=" + (lickCoroutine != null));
 
         if (lickingTime)
         {
-            if(momManager.IsDistracted()== true)
+            if (momManager.IsDistracted() == true)
             //if (distracted)
             {
                 Debug.Log("[GameManager] Space is down AND distracted=true -> calling HandleLick()");
@@ -94,9 +94,9 @@ public class GameManager : MonoBehaviour
             }
             lickCoroutine = null;
 
-            if (!momManager.IsDistracted()) 
+            if (!momManager.IsDistracted())
             {
-                float power = momManager.IsFrosting()? momManager.GetActivePower() : momManager.GetPassivePower();
+                float power = momManager.IsFrosting() ? momManager.GetActivePower() : momManager.GetPassivePower();
                 DecayProgress(power);
             }
         }
@@ -173,7 +173,7 @@ public class GameManager : MonoBehaviour
         momManager.SetStop(gameEnded);
 
         StopAllCoroutines();
-        
+
 
         if (lickCoroutine != null)
         {
@@ -191,7 +191,7 @@ public class GameManager : MonoBehaviour
                 break;
             case EndReason.Caught:
                 objectToUnhide = GetRootOfScene("BeCaught");
-                
+
                 Debug.Log("[GameManager] --- CAUGHT --- ");
                 break;
             case EndReason.TimedOut:
@@ -202,27 +202,35 @@ public class GameManager : MonoBehaviour
 
         objectToUnhide.SetActive(true);
 
+        Music sceneMusicManager = objectToUnhide.GetComponentInChildren<Music>();
+        if (sceneMusicManager != null)
+        {
+            sceneMusicManager.PlayMusic();
+        }
+
     }
 
-    private GameObject GetRootOfScene(string sceneName)
+
+
+private GameObject GetRootOfScene(string sceneName)
+{
+    Scene scene = SceneManager.GetSceneByName(sceneName);
+
+    if (!scene.IsValid())
     {
-        Scene scene = SceneManager.GetSceneByName(sceneName);
-
-        if (!scene.IsValid())
-        {
-            Debug.LogWarning($"Scene '{sceneName}' isn't loaded.");
-            return null;
-        }
-
-        GameObject[] roots = scene.GetRootGameObjects();
-
-        if (roots.Length == 0)
-        {
-            Debug.LogWarning($"Scene '{sceneName}' has no root objects.");
-            return null;
-        }
-
-        return roots[0]; // since all of the objects live in one root
+        Debug.LogWarning($"Scene '{sceneName}' isn't loaded.");
+        return null;
     }
+
+    GameObject[] roots = scene.GetRootGameObjects();
+
+    if (roots.Length == 0)
+    {
+        Debug.LogWarning($"Scene '{sceneName}' has no root objects.");
+        return null;
+    }
+
+    return roots[0]; // since all of the objects live in one root
+}
 
 }
