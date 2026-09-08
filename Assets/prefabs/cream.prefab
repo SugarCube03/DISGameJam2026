@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1535510664914279667}
   - component: {fileID: 1023167129995436552}
+  - component: {fileID: -1034804205157139522}
   m_Layer: 0
   m_Name: cream
   m_TagString: Untagged
@@ -91,3 +92,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &-1034804205157139522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035391769786307034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 689f2ad8c1e664657847af3d8eca6093, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CreamManager
+  maxScale: 1
+  minScale: 0.2
