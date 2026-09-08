@@ -21,8 +21,7 @@ public class Mom : MonoBehaviour
     public float turnBackWarning = 0.5f;
 
     public MomAnimation momAnimation;
-
-    private bool stopAll = false;
+    public MomSound momSound;
 
     // options for state of mom
     public enum State
@@ -40,21 +39,14 @@ public class Mom : MonoBehaviour
         {
             momAnimation = GetComponent<MomAnimation>();
         }
+        if (momSound == null)
+        {
+            momSound = GetComponent<MomSound>();
+        }
         StartCoroutine(MomBehaviorLoop());
     }
 
-
-    private void Update()
-    {
-        if (stopAll)
-        {
-            StopAllCoroutines();
-        }
-
-    }
-
     private bool RollForDistraction()
-
     {
         float chance = baseChance + (declineCount * chanceIncreasePerDecline);
         chance = Mathf.Clamp01(chance); // never let it exceed 100% or go negative
@@ -80,12 +72,14 @@ public class Mom : MonoBehaviour
             // frosting
             currentState = State.Frosting;
             momAnimation.PlayState(State.Frosting);
+            momSound.PlayState(State.Frosting);
             yield return new WaitForSeconds(Random.Range(minFrostingTime, maxFrostingTime));
 
 
             // thinking abt distraction
             currentState = State.Thinking;
             momAnimation.PlayState(State.Thinking);
+            momSound.PlayState(State.Thinking);
             yield return new WaitForSeconds(Random.Range(minThinkingTime, maxThinkingTime));
 
             // decide what happens after considering
@@ -93,18 +87,20 @@ public class Mom : MonoBehaviour
             {
                 currentState = State.Distracted;
                 momAnimation.PlayState(State.Distracted);
+                momSound.PlayState(State.Distracted);
                 yield return new WaitForSeconds(Random.Range(minDistractedTime, maxDistractedTime));
 
                 // turning after distraction
                 currentState = State.TurningBack;
                 momAnimation.PlayState(State.TurningBack);
+                momSound.PlayState(State.TurningBack);
                 yield return new WaitForSeconds(turnBackWarning);
                 // loop back to frosting
             }
         }
     }
 
-    // getter function to see if mom is distracted
+    // getter function to see if it is safe for the kid to lick
     public bool IsDistracted()
     {
         return currentState == State.Distracted || currentState == State.TurningBack;
@@ -119,14 +115,18 @@ public class Mom : MonoBehaviour
     public float GetMomPower()
     {
         return momPower;
-
     }
 
-
+    // game manager calls this when the round ends
     public void SetStop(bool stopState)
     {
-        stopAll = stopState;
+        if (stopState == false)
+        {
+            return;
+        }
 
-
+        StopAllCoroutines();
+        momAnimation.StopAnimating();
+        momSound.StopSound();
     }
 }
