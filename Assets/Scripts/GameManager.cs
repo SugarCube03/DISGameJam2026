@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
     {
         lickingKey = InputSystem.actions.FindAction("Jump");
 
-       
+        frostingProgress = frostingTarget * 0.5f;//set the cream is 50% at the beginning
         timeRemaining = timeLimit;
         StartCoroutine(CountdownTimer());
         progressBar.SetProgress(frostingProgress);
